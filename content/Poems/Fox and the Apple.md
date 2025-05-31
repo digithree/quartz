@@ -30,4 +30,4 @@ Away, the apple unmoved.
 
 *January 2025*
 
-Based on Aesop’s Fable [_The Fox and the Grapes_](https://en.wikipedia.org/wiki/The_Fox_and_the_Grapes)
+Based on Aesop’s Fable [The Fox and the Grapes](https://en.wikipedia.org/wiki/The_Fox_and_the_Grapes)
