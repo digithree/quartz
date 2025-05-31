@@ -8,50 +8,51 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "The Quotidian",
+    pageTitleSuffix: " - The Quotidian, by Simon Kenny",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "simonkenny.co",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        title: "Yeseva One", // Elegant serif for titles
+        header: "Playfair Display", // Literary elegance, newspaper masthead quality
+        body: "Source Serif 4", // Modern serif with excellent readability
+        code: "Anonymous Pro", // Technical precision
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#fffef7", // Warm newsprint white
+          lightgray: "#f7f5f2", // Subtle cream background
+          gray: "#a3a096", // Muted olive-gray
+          darkgray: "#4a453e", // Rich charcoal brown
+          dark: "#1a1815", // Deep ink black
+          secondary: "#8b5a3c", // Sophisticated copper-brown
+          tertiary: "#c4956c", // Warm tan accent
+          highlight: "rgba(139, 90, 60, 0.06)", // Subtle brown wash
+          textHighlight: "#f4e5d3", // Aged paper highlight
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#1c1a17", // Rich dark brown-black
+          lightgray: "#2a2722", // Layered brown surface
+          gray: "#6b645c", // Warm neutral
+          darkgray: "#c7c0b8", // Warm light gray
+          dark: "#f5f2ee", // Soft cream text
+          secondary: "#d4a574", // Golden tan
+          tertiary: "#b8956f", // Muted gold accent
+          highlight: "rgba(212, 165, 116, 0.08)", // Warm gold glow
+          textHighlight: "#3d2f1f", // Rich sepia highlight
         },
       },
-    },
+    }
   },
   plugins: {
     transformers: [
