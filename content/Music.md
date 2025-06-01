@@ -4,7 +4,7 @@ I am not as engaged in musical practice as I once was and am currently a member 
 
 As a result, this section is more of a historical account from most to lease recent, and an opportunity to share some of the projects I've been lucky to be part of. Even with my solo stuff as [[Music#Bitwise Operator]] I relied on generous community support (as you'll read). Happily, much of this work, if it interests you, can be listened to for free, so please enjoy.
 
-## Gamelan
+# Gamelan
 
 With *In Flow*, *Gamelan na Gaillimhe*, and *Bitwise + Madek*.
 
