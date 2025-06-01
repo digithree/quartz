@@ -34,7 +34,9 @@ I've surfaced the best entry points into my work here for convenience:
 * [The Art of AI Prompt Engineering](https://medium.com/@skenwrites/the-art-of-ai-prompt-engineering-dd4f23138f7a), Nov 2023, see [[Articles#Medium blog]]
 
 ## 🥁 [[Music]] that was played
-* TODO
+* [Zinc](https://zincband.bandcamp.com/album/zinc) debut self-titled album
+* [Gamelan Re-imaginings Vol. 1](https://bitwiseandmadek.bandcamp.com/album/gamelan-re-imaginings-vol-1) with *Bitwise + Madek*
+* [Vaccine](https://trenchesband.bandcamp.com/album/drainland-split-12) with *Trenches*
 
  ## 🕹️ [[Game Design]] projects
  * [[Game Design#Machine of Magical Making]], a card game for young children
