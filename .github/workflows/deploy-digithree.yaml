@@ -1,0 +1,42 @@
+name: Deploy Quartz Site
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '22'
+
+      - name: Install dependencies and build Quartz site
+        run: |
+          npm install
+          npx quartz build
+
+      - name: Set up SSH for SFTP
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SFTP_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -p ${{ secrets.SFTP_PORT }} ${{ secrets.SFTP_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Clean remote directory over SSH
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -p ${{ secrets.SFTP_PORT }} -o StrictHostKeyChecking=yes ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }} "rm -rf ${{ secrets.SFTP_REMOTE_PATH }}*"
+
+      - name: Deploy via SFTP
+        run: |
+          sftp -P ${{ secrets.SFTP_PORT }} -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=yes ${{ secrets.SFTP_USERNAME }}@${{ secrets.SFTP_HOST }} <<EOF
+          put -r public/* ${{ secrets.SFTP_REMOTE_PATH }}
+          bye
+          EOF
