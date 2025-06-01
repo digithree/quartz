@@ -34,13 +34,13 @@ I've been working in the software industry for over 10 years now, from my ill-fa
 
 *Including [[Books]], [[Articles]], and [[Poems]].*
 
-In late 2023, my debut book was published, a non-fiction work on the philosophy of religion and spirituality entitled *A Critical Introduction to Tarot: Examining the Nature of a Belief in Tarot*. This was published by Iff Books. I followed this with a pamphlet to expand into areas I didn't have space for originally, especially how modern bespoke spiritualities interact with AI and games. This subsequent pamphlet I titled A Cultural Reader of the Tarot. You can discover more about these works, and download the pamphlet for free, in [[Books]]. I spoke about this journey in [The Challenges of Independent Non-Fiction](https://www.writing.ie/tell-your-own-story/the-challenges-of-independent-non-fiction-by-simon-kenny/).
+In late 2023, my debut book was published, a non-fiction work on the philosophy of religion and spirituality entitled *[[Books#A Critical Introduction to Tarot]]*. This was published by Iff Books. I followed this with a pamphlet to expand into areas I didn't have space for originally, especially how modern bespoke spiritualities interact with AI and games. This subsequent pamphlet I titled _[[Books#A Cultural Reader of the Tarot]]_. You can discover more about these works, and download the pamphlet for free, in [[Books]]. I spoke about this journey in [The Challenges of Independent Non-Fiction](https://www.writing.ie/tell-your-own-story/the-challenges-of-independent-non-fiction-by-simon-kenny/).
 
 I'm working on other writing in this area, focusing on cultural criticism and the philosophy of religion and spirituality, as well as technology. Sometimes these happy overlap, such as the most popular article I've ever written: [ChatGPT as Tarot Oracle](https://medium.com/@skenwrites/chatgpt-as-tarot-oracle-1404ef9d200c). Sometimes the clicks are baited unintentionally. I've tied together the strands of my short-form publishing outside this website in the [[Articles]] section.
 
 Another kind of writing I've picked up again this year (2024/25) is poetry. I speak in more detail about what [[Poems]] mean to me in that section of the site. For me, in the capacity I wish to write, they are homemade artworks that beautify the home and give voice to the personally lived.
 
-Simon is a member of the International Playing-Card Society, The Irish Writers Centre, and [Writing.ie](https://www.writing.ie/member-authors/simon-kenny/).
+I am a member of the International Playing-Card Society, The Irish Writers Centre, and [Writing.ie](https://www.writing.ie/member-authors/simon-kenny/).
 
 ## [[Music]]
 
