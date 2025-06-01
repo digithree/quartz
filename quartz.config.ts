@@ -23,10 +23,10 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        title: "Yeseva One", // Elegant serif for titles
-        header: "Playfair Display", // Literary elegance, newspaper masthead quality
-        body: "Source Serif 4", // Modern serif with excellent readability
-        code: "Anonymous Pro", // Technical precision
+        title: "Cormorant",
+        header: "Yeseva One",
+        body: "Crimson Pro",
+        code: "Anonymous Pro",
       },
       colors: {
         lightMode: {
