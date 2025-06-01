@@ -1,6 +1,9 @@
 ---
 title: Technology
 ---
+![[technology-as-thing.jpg]]
+_Is this technology?_
+
 The word *technology* is most often used today as the category of modern inventions. This especially applies to computers and information processing devices. However, the suffix *ology* properly defined a structured area of knowledge, with those working within it seeking to rationalise and systematise that knowledge. This meaning is retained in most other contexts, such as with psychology and even astrology, though on its own terms.
 
 Yet we have come to see it not so much as knowledge work or even as the process of implementation (that is, *engineering*) but as the product itself. To the technologist, it is a journey of exploration, not a final result.
