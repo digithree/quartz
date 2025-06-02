@@ -84,6 +84,11 @@ while true; do
       gh pr merge "$pr_number" --squash --delete-branch
     fi
     break
+  elif echo "$copilot_review_body" | grep -q "Pull Request Overview"; then
+    # It contains a review but not comments
+    echo "Copilot generated no comments. Merging PR..."
+    gh pr merge "$pr_number" --squash --delete-branch
+    break
   else
     echo "Unexpected Copilot review format. Raw output:"
     echo "$copilot_review_body"
