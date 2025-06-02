@@ -41,6 +41,6 @@ echo "--- Claude input end ---"
 
 echo "Sending to Claude..."
 
-cat "$review_path" | claude -p "Please review the following GitHub Copilot pull request review. For each comment, automatically apply changes to the code if the comment identifies an important or correctable issue. Do not apply nitpicks, low-confidence suggestions, or comments about documentation unless critical. Return a clear list of changed files, diffs, or commands used. Assume the repo is clean and you can modify files in place."
+cat "$review_path" | claude "Please review the following GitHub Copilot pull request review. For each comment, automatically apply changes to the code if the comment identifies an important or correctable issue. Do not apply nitpicks, low-confidence suggestions, or comments about documentation unless critical. Return a clear list of changed files, diffs, or commands used. Assume the repo is clean and you can modify files in place."
 
 echo "Claude suggestion complete. Please apply changes manually or automate further if safe."
