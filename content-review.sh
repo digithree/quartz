@@ -37,7 +37,12 @@ echo "Found PR #$pr_number. Waiting for Copilot review..."
 
 # Get timestamp of most recent commit in the PR branch and convert to epoch
 last_commit_time=$(git log -1 --format="%cI" "$branch_name")
-last_commit_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s" 2>/dev/null || date -d "$last_commit_time" "+%s")
+if date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s" >/dev/null 2>&1; then
+  last_commit_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s")
+else
+  last_commit_epoch=$(date -d "$last_commit_time" "+%s")
+fi
+
 
 attempt=1
 while true; do
