@@ -52,6 +52,10 @@ while true; do
 
   echo "Copilot review found."
 
+  # Save review body to file
+  mkdir -p pr-review
+  echo "$copilot_review_body" > "pr-review/$pr_number.md"
+
   if echo "$copilot_review_body" | grep -q "generated no comments"; then
     echo "Copilot generated no comments. Merging PR..."
     gh pr merge "$pr_number" --merge --delete-branch
@@ -59,10 +63,8 @@ while true; do
     ./content-sync.sh
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
-    echo "Copilot generated review comments:"
-    echo "-----------------------------------"
-    echo "$copilot_review_body" | fold -s -w 80
-    echo "-----------------------------------"
+    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
+    
     break
   else
     echo "Unexpected Copilot review format. Raw output:"
