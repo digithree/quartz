@@ -3,17 +3,12 @@
 set -e
 
 # Check dependencies
-if ! command -v gh >/dev/null 2>&1; then
-  echo "Error: 'gh' CLI (GitHub CLI) is not installed or not in PATH."
-  echo "Install it from https://cli.github.com/"
-  exit 1
-fi
-
-if ! command -v jq >/dev/null 2>&1; then
-  echo "Error: 'jq' is not installed or not in PATH."
-  echo "Install it with 'brew install jq' (macOS) or your system's package manager."
-  exit 1
-fi
+for tool in gh jq claude; do
+  if ! command -v $tool >/dev/null 2>&1; then
+    echo "Error: '$tool' is not installed or not in PATH."
+    exit 1
+  fi
+done
 
 # Ensure we are on a content branch
 branch_name=$(git rev-parse --abbrev-ref HEAD)
@@ -82,7 +77,16 @@ while true; do
     ./content-sync.sh
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
-    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
+    review_path="pr-review/$pr_number.md"
+    response=$(cat "$review_path" | claude -p "Please review the following GitHub Copilot pull request review. Are there comments requesting changes, and if so, are any of them important or correctable issue (not including nitpicks or low-confidence suggestions but including spelling or grammar issues)? Answer ONLY with a single word: yes or no")
+    if [[ "$response" == "yes" ]]; then
+      echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
+    else
+      echo "Copilot generated no significant comments. Merging PR..."
+      gh pr merge "$pr_number" --merge --delete-branch
+      echo "PR merged. Syncing to main..."
+      ./content-sync.sh
+    fi
     break
   else
     echo "Unexpected Copilot review format. Raw output:"
