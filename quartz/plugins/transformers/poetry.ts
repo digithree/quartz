@@ -3,6 +3,15 @@ import { Root, Code } from "mdast"
 import { visit } from "unist-util-visit"
 import { CSSResource } from "../../util/resources"
 
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;")
+}
+
 interface Options {
   poetryFont?: string
   enablePoetryBlocks?: boolean
@@ -32,7 +41,7 @@ export const Poetry: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
 
                 const poetryLines = node.value.split("\n")
                 const linesHtml = poetryLines
-                  .map((line) => line.trim() === "" ? `<span class="poetry-line poetry-blank-line">&nbsp;</span>` : `<span class="poetry-line">${line}</span>`)
+                  .map((line) => line.trim() === "" ? `<span class="poetry-line poetry-blank-line">&nbsp;</span>` : `<span class="poetry-line">${escapeHtml(line)}</span>`)
                   .join("\n")
 
                 Object.assign(node, {
