@@ -2,7 +2,7 @@ The only experiences I've had that are close to the mystical are through music. 
 
 I am not as engaged in musical practice as I once was and am currently a member of no bands or groups. My only recent endeavour is to gain a basic level of skill with the Irish flute. I cannot yet play fast or clean enough to join one of the many trad sessions in local pubs, but I hope to one day.
 
-As a result, this section is more of a historical account from most to lease recent, and an opportunity to share some of the projects I've been lucky to be part of. Even with my solo stuff as [[Music#Bitwise Operator]] I relied on generous community support (as you'll read). Happily, much of this work, if it interests you, can be listened to for free, so please enjoy.
+As a result, this section is more of a historical account from most to least recent, and an opportunity to share some of the projects I've been lucky to be part of. Even with my solo stuff as [[Music#Bitwise Operator]] I relied on generous community support (as you'll read). Happily, much of this work, if it interests you, can be listened to for free, so please enjoy.
 
 # Gamelan
 
@@ -10,13 +10,13 @@ With *In Flow*, *Gamelan na Gaillimhe*, and *Bitwise + Madek*.
 
 I have been an occasional contributor to In Flow, a Gamelan ensemble based in Galway, Ireland. There is a bit of genealogy here: In Flow is a project of [That's Life](https://www.thatslifegalway.ie/), an arts and personal development programme for people with intellectual disability. That's Life is run by staff at the [Brothers of Charity Services, Galway](https://west.brothersofcharity.ie/), who support people with intellectual disability in many ways. The BoC are finally funded by the Health Service Executive (HSE), the Irish state health service. I've been volunteering with That's Life for over 15 years in one form or another, including writing bespoke video manipulation software for them (Illuminate) and various events and performances.
 
-I performed with the In Flow players on their 2016 [self-titled debut album](https://inflow1.bandcamp.com/album/in-flow) and several gigs over the years, most recently in the [2024 Galway International Arts Festival](https://www.giaf.ie/festival/event/full-circle). This performance also featured original compositions by Bianca Gannon (one of which I sight read on the night!) and the improvisation of Galway stalwarts *ConTempo Quartet*, celebrating their 25th year.
+I performed with the In Flow players on their 2016 [self-titled debut album](https://inflow1.bandcamp.com/album/in-flow) and several gigs over the years, most recently in the [2024 Galway International Arts Festival](https://www.giaf.ie/festival/event/full-circle). This performance also featured original compositions by Bianca Gannon (one of which I sight-read on the night!) and the improvisation of Galway stalwarts *ConTempo Quartet*, celebrating their 25th year.
 
 ![# In Flow - A Unique Musical and Visual Experience](https://www.youtube.com/watch?v=oShAWNcVVeU)
 
-Gamelan is traditional Indonesian music, a tradition which encompasses village folk songs as well as the 'high' art of a royal court. It is played in long sessions, often accompanies by dancing and shadow puppet performances. Around 2009, That's Life commissioned a Gamelan to be made in Java, Indonesia and shipped to Ireland. Members of what would become the community players group of Gamelan na Gaillimhe flew to Java to learn basic playing technique, as arranged by their regional patron closer to home, Dr Peter Smith of Oxford, England. I joined this group around 2010 and learned along with them as we studied with experts from the small pool in Ireland, as well as travelling to participate in the much larger scene in the UK. (Watch our group playing a [well-known traditional tune here](https://www.youtube.com/watch?v=1p9NTdLaPHg).)
+Gamelan is traditional Indonesian music, a tradition which encompasses village folk songs as well as the 'high' art of a royal court. It is played in long sessions, often accompanied by dancing and shadow puppet performances. Around 2009, That's Life commissioned a Gamelan to be made in Java, Indonesia and shipped to Ireland. Members of what would become the community players group of Gamelan na Gaillimhe flew to Java to learn basic playing technique, as arranged by their regional patron closer to home, Dr Peter Smith of Oxford, England. I joined this group around 2010 and learned along with them as we studied with experts from the small pool in Ireland, as well as travelling to participate in the much larger scene in the UK. (Watch our group playing a [well-known traditional tune here](https://www.youtube.com/watch?v=1p9NTdLaPHg).)
 
-Long-time collaborator Andrew Madec and I used what we learned of traditional Gamelan and attempted a fusion with our other interests in trip hop and electronic music. This resulted in [Gamelan Re-imaginings Vol. 1](https://bitwiseandmadek.bandcamp.com/album/gamelan-re-imaginings-vol-1) under the fused name *[[Music#Bitwise Operator|Bitwise]] + Madek*. At the 2013 London Southbank Centre Gamalanathon, where we were permitted to lead an interactive improvised session, attempting to bring some of these electronic aesthetics to a larger audience.
+Long-time collaborator Andrew Madec and I used what we learned of traditional Gamelan and attempted a fusion with our other interests in trip hop and electronic music. This resulted in [Gamelan Re-imaginings Vol. 1](https://bitwiseandmadek.bandcamp.com/album/gamelan-re-imaginings-vol-1) under the fused name *[[Music#Bitwise Operator|Bitwise]] + Madek*. At the 2013 London Southbank Centre Gamalanathon, we were permitted to lead an interactive improvised session, attempting to bring some of these electronic aesthetics to a larger audience.
 
 ![# Gamelanathon 2013 - Bitwise and Madek](https://www.youtube.com/watch?v=Gq5KSTUEj1g)
 
@@ -24,7 +24,7 @@ Long-time collaborator Andrew Madec and I used what we learned of traditional Ga
 
 > Zinc combine hypnotic grooves with gritty textures to bring you on a trip. Exhilarating post-rock, with the roughness of hip-hop and the melodic side of electronica.
 
-This was the blurb we settled on for our press. Zinc possibly my favourite band, combining deep thinking and musical intellectualising with subconscious abandon and self-surprising improv. This reached its zenith in an hour-long, completely improved set we performed in the Black Gate Cafe in the Summer of 2017, our last performance as it would happen. I remember feeling I was on the precipice of _now_, tumbling in the ever-present singular Moment, no past or future. As the drummer, when it was my turn to start a new 'song', I simply counted in on the sticks, giving the impression there was something sure to come, none of us knowing what that would be.
+This was the blurb we settled on for our press. Zinc was possibly my favourite band, combining deep thinking and musical intellectualising with subconscious abandon and self-surprising improv. This reached its zenith in an hour-long, completely improved set we performed in the Black Gate Cafe in the Summer of 2017, our last performance as it would happen. I remember feeling I was on the precipice of _now_, tumbling in the ever-present singular Moment, no past or future. As the drummer, when it was my turn to start a new 'song', I simply counted in on the sticks, giving the impression there was something sure to come, none of us knowing what that would be.
 
 The other members of our three-piece were Andrew Madec (my most often collaborator) on bass and [Aengus Hackett](https://aengushackett.com/) on guitar. Both stringed players used generous arrays of effects pedals in their setup which lead to a sound that implies a fourth or fifth member of the group at time. My instrument was far simpler, a stripped down drum kit, and my task was to keep it all together.
 
@@ -42,9 +42,9 @@ You can listen to the [self-titled Zinc album on Bandcamp](https://zincband.band
 
 # Trenches
 
-> "The heaviest band in Ireland." — someone, probably
+> "The heaviest band in Ireland."
 
-We did hear that a lot from people. I joined up with guitarists Gabriel "Peanut" Hielscher and Jonathan "Mayt" Lynch in 2007 to form a three-piece. We added former [[Music#Captain Spaulding]] vocalist Kieran Griffin, Garret O'Malley on bass and then a THIRD guitarist, Peter "Monty" Montgomery. It was this
+We did hear that a lot from people. I joined up with guitarists Gabriel "Peanut" Hielscher and Jonathan "Mayt" Lynch in 2007 to form a three-piece. We added former [[Music#Captain Spaulding]] vocalist Kieran Griffin, Garret O'Malley on bass and then a THIRD guitarist, Peter "Monty" Montgomery. Each of these three guitarists had a powerful tube half-stack amp, and add to that bass on another tube half-stack, me smashing away on the drums, and Kieran screaming and growling through a PA.
 
 Gab and Jonathan were the core writers of the group and any spark of genius the band could ever claim originated in their weird brains. I first met Jonathan when he played with easily the most intense local band I had ever seen, Exploded Face from Ballina, Mayo, and shared the stage with them during my time with [[Music#Captain Spaulding]]. Jonathan has a talent for haunting aharmonic solo work and a deep understanding of the genre (even if it was a little too much _crust_ at times for me). Gab is some kind of musical savant. I remember him asking me what timing some complicated riff he had developed was in — it was some kind of 11 over 8.
 
@@ -84,7 +84,7 @@ On the [Bitwise Operator Bandcamp](https://bitwiseoperator.bandcamp.com/) page, 
 * [Samurai Hack](https://bitwiseoperator.bandcamp.com/album/samurai-hack), a concept album on a favourite cartoon of my youth, Samurai Jack, 2011
 * [Remixes of Metal](https://bitwiseoperator.bandcamp.com/album/remixes-of-metal), an abandoned remix album of 2011 (re-release 2018)
 * The [Carrot](https://bitwiseoperator.bandcamp.com/album/carrot-ep) and [Stick](https://bitwiseoperator.bandcamp.com/album/stick-ep) double EP, the last coherent work. Released by [Wingnut Records](https://soundcloud.com/wingnut-records) with a limited run print edition, 2012
-* [And Friend](https://bitwiseoperator.bandcamp.com/album/and-friends), another abandoned remix album from 2012 (re-release 2018)
+* [And Friends](https://bitwiseoperator.bandcamp.com/album/and-friends), another abandoned remix album from 2012 (re-release 2018)
 * [Late Stage](https://bitwiseoperator.bandcamp.com/album/late-stage), final unreleased works, including fragments of dead projects, though two otherwise used works in a short movie and in a live theatre production, 2010-2013
 
 The list of thanks is huge, but I'll try for an abridged version here:
@@ -97,22 +97,24 @@ Andrew M and Alison McD-W also form the two-piece [VOIDS](https://voidsmusic.ban
 
 # Captain Spaulding
 
-Captain Spaulding was a punk band named after the murderous clown played by Sig Haig in Rob Zombie's 2003 film *House of 1000 Corpses*. The other members were Michael Sherry (guitar, vocals) and Kieran Griffin (bass, vocals) who would also join me in [[Music#Trenches]] not too long after we disbanded Captain Spaulding. The band was formed while we were still in secondary school, largely on account of being in the same school together and growing up in the same small village. We even played as a band for the Leaving Certificate (final Irish school exam) music practical exam, and received a positive grade!
+Captain Spaulding was a punk band named after the murderous clown played by Sig Haig in Rob Zombie's 2003 film *House of 1000 Corpses*. The other members were Michael Sherry (guitar, vocals) and Kieran Griffin (bass, vocals). The band was formed while we were still in secondary school, largely on account of being in the same school together and growing up in the same small village. We even played as a band for the Leaving Certificate (final Irish school exam) music practical exam, and received a positive grade!
 
-It wasn't just a band though, the first two student houses I lived in were with Michael and Kieran — we even rehearsed at home, much to the consternation of our neighbours. (Incidentally, [[Music#Trenches]] was formed in rehearsal in the second of these houses and Kieran likely was enthused to join due to the proximity of the shed to the kitchen.) This led to the nickname "Spauldy House".
+Kieran would join me in [[Music#Trenches]] not too long after we disbanded Captain Spaulding, and Mike went on to play with [Violins is not the answer](https://archive.org/details/alk034ViolinsIsNotTheAnswerclassicDead.Mp3320kbps), a classic fun, crowd-centric punk/ska/hardcore band.
 
-As an eager teenage band, we travelled around to any venue that would put us on, mostly by bus. These venues included Ballina, Tuam, Athlone, Limerick, Cork, Dublin, Bray, Letterfrack, and Virginia (Cavan, not USA), and of course Galway, where we were based.
+It wasn't just a band though, the first two student houses I lived in were with Mike and Kieran — we even rehearsed at home, much to the consternation of our neighbours. (Incidentally, [[Music#Trenches]] was formed in rehearsal in the second of these houses and Kieran likely was enthused to join due to the proximity of the shed to the kitchen.) This led to the nickname "Spauldy House".
+
+As an eager teenage band, we travelled around to any venue that would put us on, mostly by bus. We played all over, in Ballina, Tuam, Athlone, Slido, Limerick, Cork, Dublin, Bray, Letterfrack, and Virginia (Cavan, not USA), and of course Galway, where we were based. We somehow fell in with old English punks that were part of some kind of commune in the Sligo/Roscommon area and we played a lot of gigs there.
 
 ![[captain-spaulding-band.jpg]]
 *Captain Spaulding at Leitrimfest, ~2007.*
 
-There are unfortunately no online recordings of us but we did record a demo that must be floating around somewhere, though I do not have a copy. Kieran and Mike wrote the songs, and in terms of style they were mainly influenced by hardcore punk bands such as Black Flag, the Dead Kennedys, and so on. My tastes were more grunge than punk at the time, and so though I really enjoyed playing, the lack of musicianship in punk in general put me off. I was much more at home later in the more cerebral [[Music#Trenches]].
+There are unfortunately no online recordings of us but we did record a demo that must be floating around somewhere. Kieran and Mike wrote the songs, and in terms of style they were mainly influenced by hardcore punk bands such as Black Flag, the Dead Kennedys, and so on. My tastes were more grunge than punk at the time and so I did my best to keep up with the speed and mania required. I was much more at home later in the more cerebral, much slower [[Music#Trenches]].
 
 More information at the [Irish Music DB](http://irishmusicdb.com/c/captainspaulding/frame.htm) — there is a very funny band photo there, I will not reproduce it here but do check it out!
 
 # The Moonsonic Project
 
-After the end of my first band, [[Music#The Vice]], I bought band mate Danny Sheeran in on the music production software I was experimenting with at the time. In those days, before high data transfer speeds on the internet, magazines pitched at aspiring producers used to ship of CDs filled with samples, especially *looped* samples. It was easy to import these files into simple Digital Audio Workstation (DAW) programs and mix and chop them up as you like, adding effects and so on. To this, you could add your own originally recorded material and end up with something not completely dissimilar from professionally produced tracks.
+After the end of my first band, [[Music#The Vice]], I brought band mate Danny Sheeran in on the music production software I was experimenting with at the time. In those days, before high data transfer speeds on the internet, magazines pitched at aspiring producers used to ship of CDs filled with samples, especially *looped* samples. It was easy to import these files into simple Digital Audio Workstation (DAW) programs and mix and chop them up as you like, adding effects and so on. To this, you could add your own originally recorded material and end up with something not completely dissimilar from professionally produced tracks.
 
 What started off as messing around and experimentation ended up, as often happens, as a more serious project. Over the course of two years, Danny and I created about 20 tracks. Some of them were complete jokes, such as a [Bagpuss](https://www.youtube.com/watch?v=dpwhohWhrEE) meets the [Moomins](https://www.youtube.com/watch?v=oiZ0eBFTH6k) psychedelic parody. Others became more genuine such as my heartfelt, melancholic 5 minute solo piano recital "Partially Exposed". But, overall, most retained an appropriately juvenile tone. My sister Nuala, then aged only 16, sang on two tracks on the album. We would collaborate again on [[Music#Naso Guanto]].
 

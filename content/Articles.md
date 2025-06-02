@@ -5,11 +5,10 @@ I've been lucky to have a few articles accepted for publication in recent years.
 - Review of Battle of Tarot card game, [The Playing Card journal](https://www.i-p-c-s.org/wp/home-2/), vol. 52 issue 6 (Dec 2024)
 - Recognising the Christian Mysticism of the Tarot, [The Christian Parapsychologist](https://www.churchesfellowship.co.uk/cp) (Spring 2024)
 - Esoteric Tarot and A New Generation of Games, [The Playing Card journal](https://www.i-p-c-s.org/wp/home-2/), vol. 52 issue 3 (Feb 2024)
-- [Tarot Card Games](https://pocketmags.com/eu/tabletop-gaming-magazine/july-2023-80/articles/1328659/tarot-card-game),  _[Tabletop Gaming Magazine](https://www.tabletopgaming.co.uk/)_, issue 80 (23rd June 2023)
 - The Tarot Is Evil & Other Fallacies, The Cartomancer Magazine, Fall 2023
+- [Tarot Card Games](https://pocketmags.com/eu/tabletop-gaming-magazine/july-2023-80/articles/1328659/tarot-card-game),  _[Tabletop Gaming Magazine](https://www.tabletopgaming.co.uk/)_, issue 80 (23rd June 2023)
 
 # Online publications
-
 * [The Challenges of Independent Non-Fiction](https://www.writing.ie/tell-your-own-story/the-challenges-of-independent-non-fiction-by-simon-kenny/), Writing.ie, Jan 2024
 * [Simon Kenny, Technical Lead and Musician](https://otia.io/2019/12/06/simon-kenny-technical-lead-and-musician/), Otia Magazine, Dec 2019
 * [Marino Hackathon 2018: A Time Tracking System](https://www.marinosoftware.com/insights/marino-hackathon-2018), Marino Software blog, July 2018
@@ -26,10 +25,9 @@ It has been over a year since I've written for this blog but I may write for it 
 * [Why I Wrote ‘A Critical Introduction to Tarot’](https://medium.com/@skenwrites/why-i-wrote-a-critical-introduction-to-tarot-f2f507c7e7fa), Jan 2023
 * [TikTok’s AI death prediction trend reveals something much deeper](https://medium.com/@skenwrites/tiktok-ai-death-prediction-trend-reveals-something-much-deeper-e4c0e1f25215), Sep 2022
 * [A Critical Introduction to Tarot: Examining the Nature of a Belief in Tarot — Summary](https://medium.com/@skenwrites/a-critical-introduction-to-tarot-examining-the-nature-of-a-belief-in-tarot-summary-348e636b0ef1), Sept 2022
-
 ## Bandersnatch deep-dive blog
 
-This was an anonymous blog in which I wrote a 5 part exploration of the Black Mirror interactive film Bandersnatch. I kind of method acted the main character at this time and recreated the fictional mission of creating the impossible and maddening titular game, though on Commodore 64 instead of ZX Spectrum.
+This was an anonymous blog in which I wrote a 5 part exploration of the *Black Mirror* interactive film *Bandersnatch*. I kind of method acted the main character at this time and recreated the fictional mission of creating the impossible and maddening titular game, though on Commodore 64 instead of ZX Spectrum.
 
 Instead of reverse chronological order like all the above, this is in reading order, from top to bottom. They were written between February and April 2019.
 
@@ -41,4 +39,4 @@ Instead of reverse chronological order like all the above, this is in reading or
 
 Like the protagonist 'Stefan', my game remains unfinished, though my sanity returned to me as soon as I stopped working on it and no dad's heads were chopped off in the making.
 
-You can download and play the working demo game at [BNDRSNTCH](https://github.com/digithree/bndrsntch). See also in [[Game Design]].
+You can download and play the working demo of [[Game Design#BNDRSNTCH]].
