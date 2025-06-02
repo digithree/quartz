@@ -41,7 +41,7 @@ while true; do
 
   reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
 
-  copilot_review_body=$(echo "$reviews_json" | jq -r '.[] | select(.user.login == "copilot-pull-request-reviewer[bot]") | .body' | head -n 1)
+  copilot_review_body=$(echo "$reviews_json" | jq -r '[.[] | select(.user.login == "copilot-pull-request-reviewer[bot]")][0].body')
 
   if [[ -z "$copilot_review_body" ]]; then
     echo "Waiting for Copilot review... (attempt $attempt)"
@@ -58,7 +58,7 @@ while true; do
     echo "PR merged. Syncing to main..."
     ./content-sync.sh
     break
-  elif echo "$copilot_review_body" | grep -q "generated [0-9]\+ comment"; then
+  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
     echo "Copilot generated review comments:"
     echo "-----------------------------------"
     echo "$copilot_review_body" | fold -s -w 80
