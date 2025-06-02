@@ -14,8 +14,8 @@ done
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
 # Check if the branch name matches the expected pattern
-if [[ ! "$branch_name" =~ ^content/([0-9]{2}-[0-9]{2}-[0-9]{2})-([0-9]{2})$ ]]; then
-  echo "Error: Current branch '$branch_name' does not match the expected pattern 'content/YY-MM-DD-XX'"
+if [[ ! "$branch_name" =~ ^content/([0-9]{2}-[0-9]{2}-[0-9]{2})-(.+)$ ]]; then
+  echo "Error: Current branch '$branch_name' does not match the expected pattern 'content/YY-MM-DD-<suffix>'"
   exit 1
 fi
 
@@ -33,7 +33,7 @@ if [[ "$pr_number" == "null" || -z "$pr_number" ]]; then
   echo "Creating pull request for branch: $branch_name"
   gh pr create \
     --title "$branch_name" \
-    --body "Content update for $date_part, number $suffix_part." \
+    --body "Content update for $date_part, suffix $suffix_part." \
     --base main \
     --head "$branch_name"
 else

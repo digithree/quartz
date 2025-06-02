@@ -12,18 +12,8 @@ fi
 # Get current date in YY-MM-DD format
 date_prefix=$(date +%y-%m-%d)
 
-# Get list of existing content branches for today
-existing=$(git branch -a | grep "content/$date_prefix" | sed 's/.*content\/'"$date_prefix"'-//' | sort)
-
-# Find the next available suffix
-suffix="00"
-for i in {0..99}; do
-  candidate=$(printf "%02d" $i)
-  if ! echo "$existing" | grep -q "^$candidate$"; then
-    suffix=$candidate
-    break
-  fi
-done
+# Generate a random 6-character alphanumeric suffix
+suffix=$(LC_ALL=C tr -dc 'a-z0-9' < /dev/urandom | head -c 6)
 
 # Construct new branch name
 new_branch="content/$date_prefix-$suffix"

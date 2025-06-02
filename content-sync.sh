@@ -6,7 +6,7 @@ set -e
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
 # Check if the branch name matches the expected pattern
-if [[ "$branch_name" =~ ^content/[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$ ]]; then
+if [[ "$branch_name" =~ ^content/[0-9]{2}-[0-9]{2}-[0-9]{2}-.+$ ]]; then
   echo "Current branch '$branch_name' matches content branch pattern."
 
   echo "Switching to 'main' branch..."
