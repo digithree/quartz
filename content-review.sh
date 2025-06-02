@@ -90,3 +90,5 @@ while true; do
     break
   fi
 done
+
+echo -e "\a"
