@@ -72,7 +72,7 @@ while true; do
 
   if echo "$copilot_review_body" | grep -q "generated no comments"; then
     echo "Copilot generated no comments. Merging PR..."
-    gh pr merge "$pr_number" --merge --delete-branch
+    gh pr merge "$pr_number" --squash --delete-branch
     echo "PR merged. Syncing to main..."
     ./content-sync.sh
     break
@@ -83,7 +83,7 @@ while true; do
       echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
     else
       echo "Copilot generated no significant comments. Merging PR..."
-      gh pr merge "$pr_number" --merge --delete-branch
+      gh pr merge "$pr_number" --squash --delete-branch
       echo "PR merged. Syncing to main..."
       ./content-sync.sh
     fi
