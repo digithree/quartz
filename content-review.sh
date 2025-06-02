@@ -56,7 +56,7 @@ while true; do
     [ .[]
       | select(.user.login == "copilot-pull-request-reviewer[bot]")
       | . as $r
-      | ($r.submitted_at | sub("Z$"; "+00:00") | fromdateiso8601) as $submitted
+      | ($r.submitted_at | fromdateiso8601) as $submitted
       | select($submitted > $ts)
     ][-1]')
 
