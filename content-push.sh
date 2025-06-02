@@ -55,11 +55,11 @@ else
       | select(.user.login == "copilot-pull-request-reviewer[bot]")
       | . as $r
       | ($r.submitted_at | fromdateiso8601) as $submitted
-      | select($submitted > $ts)
+      | select($submitted < $ts)
     ][-1]')
 
   if [[ "$copilot_review" != "null" && -n "$copilot_review" ]]; then
-    echo "Recent Copilot review found after last commit. YOU MUST MANUALLY RE-REQUEST A REVIEW -> 💻"
+    echo "Copilot review found but predates latest commit. Opening PR in browser..."
     gh pr view "$branch_name" --web
   fi
 fi
