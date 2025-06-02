@@ -73,8 +73,6 @@ while true; do
   if echo "$copilot_review_body" | grep -q "generated no comments"; then
     echo "Copilot generated no comments. Merging PR..."
     gh pr merge "$pr_number" --squash --delete-branch
-    echo "PR merged. Syncing to main..."
-    ./content-sync.sh
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
     review_path="pr-review/$pr_number.md"
@@ -84,9 +82,12 @@ while true; do
     else
       echo "Copilot generated no significant comments. Merging PR..."
       gh pr merge "$pr_number" --squash --delete-branch
-      echo "PR merged. Syncing to main..."
-      ./content-sync.sh
     fi
+    break
+  elif echo "$copilot_review_body" | grep -q "Pull Request Overview"; then
+    # It contains a review but not comments
+    echo "Copilot generated no comments. Merging PR..."
+    gh pr merge "$pr_number" --squash --delete-branch
     break
   else
     echo "Unexpected Copilot review format. Raw output:"
