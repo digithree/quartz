@@ -35,8 +35,9 @@ fi
 
 echo "Found PR #$pr_number. Waiting for Copilot review..."
 
-# Get timestamp of most recent commit in the PR branch
+# Get timestamp of most recent commit in the PR branch and convert to epoch
 last_commit_time=$(git log -1 --format="%cI" "$branch_name")
+last_commit_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s" 2>/dev/null || date -d "$last_commit_time" "+%s")
 
 attempt=1
 while true; do
@@ -44,7 +45,13 @@ while true; do
 
   reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
 
-  copilot_review=$(echo "$reviews_json" | jq -r --arg ts "$last_commit_time" '[.[] | select(.user.login == "copilot-pull-request-reviewer[bot]") | select(.submitted_at > $ts)][-1]')
+  copilot_review=$(echo "$reviews_json" | jq --argjson ts "$last_commit_epoch" '
+    [ .[]
+      | select(.user.login == "copilot-pull-request-reviewer[bot]")
+      | . as $r
+      | ($r.submitted_at | sub("Z$"; "+00:00") | fromdateiso8601) as $submitted
+      | select($submitted > $ts)
+    ][-1]')
 
   if [[ -z "$copilot_review" || "$copilot_review" == "null" ]]; then
     echo "Waiting for Copilot review after last commit... (attempt $attempt)"
@@ -67,7 +74,7 @@ while true; do
     echo "PR merged. Syncing to main..."
     ./content-sync.sh
     break
-  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
+  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\\.?"; then
     echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
     break
   else
@@ -75,5 +82,4 @@ while true; do
     echo "$copilot_review_body"
     break
   fi
-
 done
