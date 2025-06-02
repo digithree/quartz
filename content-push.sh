@@ -2,6 +2,13 @@
 
 set -e
 
+# Check dependencies
+if ! command -v gh >/dev/null 2>&1; then
+  echo "Error: 'gh' CLI (GitHub CLI) is not installed or not in PATH."
+  echo "Install it from https://cli.github.com/"
+  exit 1
+fi
+
 # Get the current branch name
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
