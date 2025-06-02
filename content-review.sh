@@ -75,14 +75,7 @@ while true; do
     gh pr merge "$pr_number" --squash --delete-branch
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
-    review_path="pr-review/$pr_number.md"
-    response=$(cat "$review_path" | claude -p "Please review the following GitHub Copilot pull request review. Are there comments requesting changes, and if so, are any of them important or correctable issue (not including nitpicks or low-confidence suggestions but including spelling or grammar issues)? Answer ONLY with a single word: yes or no")
-    if [[ "$response" == "yes" ]]; then
-      echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
-    else
-      echo "Copilot generated no significant comments. Merging PR..."
-      gh pr merge "$pr_number" --squash --delete-branch
-    fi
+    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md; please review."
     break
   elif echo "$copilot_review_body" | grep -q "Pull Request Overview"; then
     # It contains a review but not comments
