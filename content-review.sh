@@ -37,12 +37,14 @@ echo "Found PR #$pr_number. Waiting for Copilot review..."
 
 # Get timestamp of most recent commit in the PR branch and convert to epoch
 last_commit_time=$(git log -1 --format="%cI" "$branch_name")
-if date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s" >/dev/null 2>&1; then
-  last_commit_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_time" "+%s")
+# Strip colon from timezone offset to make it compatible with macOS `date`
+last_commit_cleaned=$(echo "$last_commit_time" | sed -E 's/([+-][0-9]{2}):([0-9]{2})/\1\2/')
+
+if date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_cleaned" "+%s" >/dev/null 2>&1; then
+  last_commit_epoch=$(date -j -f "%Y-%m-%dT%H:%M:%S%z" "$last_commit_cleaned" "+%s")
 else
   last_commit_epoch=$(date -d "$last_commit_time" "+%s")
 fi
-
 
 attempt=1
 while true; do
