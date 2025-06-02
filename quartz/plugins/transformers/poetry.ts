@@ -86,7 +86,6 @@ export const Poetry: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   display: block;
   margin-bottom: 0.25rem;
   text-indent: 0;
-  hanging-indent: 2em;
   padding-left: 2em;
   text-indent: -2em;
 }
@@ -103,7 +102,6 @@ export const Poetry: QuartzTransformerPlugin<Partial<Options>> = (userOpts) => {
   }
   
   .poetry-line {
-    hanging-indent: 1.5em;
     padding-left: 1.5em;
     text-indent: -1.5em;
   }
