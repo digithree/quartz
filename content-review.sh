@@ -12,7 +12,7 @@ done
 
 # Ensure we are on a content branch
 branch_name=$(git rev-parse --abbrev-ref HEAD)
-if [[ ! "$branch_name" =~ ^content/[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}$ ]]; then
+if [[ ! "$branch_name" =~ ^content/[0-9]{2}-[0-9]{2}-[0-9]{2}-.+$ ]]; then
   echo "Error: Current branch '$branch_name' does not match content branch pattern."
   exit 1
 fi
