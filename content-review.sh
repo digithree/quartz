@@ -35,20 +35,25 @@ fi
 
 echo "Found PR #$pr_number. Waiting for Copilot review..."
 
+# Get timestamp of most recent commit in the PR branch
+last_commit_time=$(git log -1 --format="%cI" "$branch_name")
+
 attempt=1
 while true; do
   echo "Polling for Copilot review via review events (attempt $attempt)..."
 
   reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
 
-  copilot_review_body=$(echo "$reviews_json" | jq -r '[.[] | select(.user.login == "copilot-pull-request-reviewer[bot]")][0].body')
+  copilot_review=$(echo "$reviews_json" | jq -r --arg ts "$last_commit_time" '[.[] | select(.user.login == "copilot-pull-request-reviewer[bot]") | select(.submitted_at > $ts)][-1]')
 
-  if [[ -z "$copilot_review_body" ]]; then
-    echo "Waiting for Copilot review... (attempt $attempt)"
+  if [[ -z "$copilot_review" || "$copilot_review" == "null" ]]; then
+    echo "Waiting for Copilot review after last commit... (attempt $attempt)"
     attempt=$((attempt + 1))
     sleep 30
     continue
   fi
+
+  copilot_review_body=$(echo "$copilot_review" | jq -r '.body')
 
   echo "Copilot review found."
 
@@ -64,7 +69,6 @@ while true; do
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
     echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
-    
     break
   else
     echo "Unexpected Copilot review format. Raw output:"
