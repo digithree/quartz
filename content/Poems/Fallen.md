@@ -1,4 +1,4 @@
-```
+```poetry
 I have fallen into the old ways,
 The killing comfort of plain rich food
 That's shovelled from bleach-white plates into
