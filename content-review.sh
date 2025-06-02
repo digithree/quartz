@@ -81,7 +81,7 @@ while true; do
     echo "PR merged. Syncing to main..."
     ./content-sync.sh
     break
-  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\\.?"; then
+  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
     echo "Copilot generated comments. Review saved to pr-review/$pr_number.md"
     break
   else
