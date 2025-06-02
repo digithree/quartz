@@ -63,8 +63,13 @@ while true; do
     echo "-----------------------------------"
     break
   else
-    echo "Unexpected Copilot comment format. Here's the raw output:"
-    echo "$copilot_comment"
-    break
+    echo "Error: Unexpected Copilot comment format encountered."
+    echo "Branch: $branch_name, PR: #$pr_number"
+    echo "Raw Copilot comment output:"
+    echo "-----------------------------------"
+    echo "$copilot_comment" | fold -s -w 80
+    echo "-----------------------------------"
+    echo "Please check the PR manually or contact support for assistance."
+    exit 1
   fi
 done
