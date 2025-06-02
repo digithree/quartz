@@ -73,6 +73,9 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.Poetry({
+        poetryFont: "'Cormorant Garamond'",
+      }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

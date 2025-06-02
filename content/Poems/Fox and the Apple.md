@@ -1,4 +1,4 @@
-```
+```poetry
 For hunger, Fox stalks,  
 The land she sniffs with snout  
 In search of something sweet.  
