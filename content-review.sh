@@ -25,7 +25,7 @@ fi
 echo "Checking for PR associated with branch: $branch_name..."
 
 # Get the pull request number
-pr_json=$(gh pr view "$branch_name" --json number,comments)
+pr_json=$(gh pr view "$branch_name" --json number)
 pr_number=$(echo "$pr_json" | jq -r '.number')
 
 if [[ -z "$pr_number" || "$pr_number" == "null" ]]; then
@@ -35,41 +35,39 @@ fi
 
 echo "Found PR #$pr_number. Waiting for Copilot review..."
 
+attempt=1
 while true; do
-  # Fetch PR comments as JSON
-  comments_json=$(gh pr view "$pr_number" --json comments)
-  copilot_comment=$(echo "$comments_json" | jq -r '.comments[] | select(.author.login == "github-copilot[bot]") | .body' | head -n 1)
+  echo "Polling for Copilot review via review events (attempt $attempt)..."
 
-  if [[ -z "$copilot_comment" ]]; then
-    echo "Waiting for Copilot review..."
+  reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
+
+  copilot_review_body=$(echo "$reviews_json" | jq -r '.[] | select(.user.login == "copilot-pull-request-reviewer[bot]") | .body' | head -n 1)
+
+  if [[ -z "$copilot_review_body" ]]; then
+    echo "Waiting for Copilot review... (attempt $attempt)"
+    attempt=$((attempt + 1))
     sleep 30
     continue
   fi
 
   echo "Copilot review found."
 
-  # Check if Copilot said "no comments"
-  if echo "$copilot_comment" | grep -q "generated no comments"; then
+  if echo "$copilot_review_body" | grep -q "generated no comments"; then
     echo "Copilot generated no comments. Merging PR..."
-
     gh pr merge "$pr_number" --merge --delete-branch
     echo "PR merged. Syncing to main..."
     ./content-sync.sh
     break
-  elif echo "$copilot_comment" | grep -q "generated [0-9][0-9]* comments"; then
+  elif echo "$copilot_review_body" | grep -q "generated [0-9]\+ comment"; then
     echo "Copilot generated review comments:"
     echo "-----------------------------------"
-    echo "$copilot_comment" | fold -s -w 80
+    echo "$copilot_review_body" | fold -s -w 80
     echo "-----------------------------------"
     break
   else
-    echo "Error: Unexpected Copilot comment format encountered."
-    echo "Branch: $branch_name, PR: #$pr_number"
-    echo "Raw Copilot comment output:"
-    echo "-----------------------------------"
-    echo "$copilot_comment" | fold -s -w 80
-    echo "-----------------------------------"
-    echo "Please check the PR manually or contact support for assistance."
-    exit 1
+    echo "Unexpected Copilot review format. Raw output:"
+    echo "$copilot_review_body"
+    break
   fi
+
 done
