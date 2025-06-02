@@ -75,7 +75,7 @@ while true; do
     gh pr merge "$pr_number" --squash --delete-branch
     break
   elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
-    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md, please review."
+    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md; please review."
     break
   elif echo "$copilot_review_body" | grep -q "Pull Request Overview"; then
     # It contains a review but not comments
