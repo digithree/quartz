@@ -20,6 +20,7 @@ git push -u origin "$branch_name"
 
 # Create the pull request using GitHub CLI with branch name as title (default), custom body
 gh pr create \
+  --title "$branch_name" \
   --body "Content update for $date_part, number $suffix_part." \
   --base main \
   --head "$branch_name"
