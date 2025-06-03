@@ -85,6 +85,7 @@ while true; do
                 comments(first: 10) {
                   nodes {
                     bodyText
+                    outdated
                     author {
                       login
                     }
@@ -97,7 +98,7 @@ while true; do
       }
     ")
 
-    # Filter for Copilot comments and count total/resolved/unresolved
+    # Filter for Copilot comments and count total/resolved/unresolved/outdated
     all_copilot_comments=$(echo "$comments_json" | jq '
       [.data.repository.pullRequest.reviewThreads.nodes[]
         | .comments.nodes = (.comments.nodes | map(select(.author.login == "copilot-pull-request-reviewer" or .author.login == "copilot-pull-request-reviewer[bot]")))
@@ -106,10 +107,12 @@ while true; do
     
     total_comment_count=$(echo "$all_copilot_comments" | jq 'length')
     resolved_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.isResolved == true)] | length')
-    unresolved_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.isResolved == false)] | length')
+    outdated_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.comments.nodes[] | .outdated == true)] | length')
+    unresolved_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.isResolved == false and (.comments.nodes[] | .outdated == false))] | length')
     
     echo "Total Copilot comments: $total_comment_count"
     echo "Resolved comments: $resolved_comment_count"
+    echo "Outdated comments: $outdated_comment_count"
     echo "Unresolved comments: $unresolved_comment_count"
 
     if [[ "$unresolved_comment_count" -eq 0 ]]; then
@@ -117,10 +120,10 @@ while true; do
       gh pr merge "$pr_number" --squash --delete-branch
       break
     else
-      # Save only unresolved comments to file
+      # Save only unresolved (non-outdated) comments to file
       mkdir -p pr-review
       echo "$all_copilot_comments" | jq '
-        [.[] | select(.isResolved == false)]
+        [.[] | select(.isResolved == false and (.comments.nodes[] | .outdated == false))]
       ' > "pr-review/$pr_number.md"
       echo "Unresolved Copilot comments saved to pr-review/$pr_number.md; please review."
       break
