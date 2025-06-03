@@ -4,6 +4,7 @@ tags:
   - anarchism
   - kingship
   - enlightenment
+  - anthropology
 ---
 [Open Library: OL27816119W](https://openlibrary.org/works/OL27816119W/Pirate_Enlightenment)
 
