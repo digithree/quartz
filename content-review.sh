@@ -113,7 +113,7 @@ while true; do
 
     if [[ "$unresolved_comment_count" -eq 0 ]]; then
       echo "No unresolved Copilot comments. Merging PR..."
-      #gh pr merge "$pr_number" --squash --delete-branch
+      gh pr merge "$pr_number" --squash --delete-branch
       break
     else
       # Save only unresolved comments to file
