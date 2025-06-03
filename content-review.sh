@@ -48,7 +48,7 @@ while true; do
 
   copilot_reviews=$(echo "$reviews_json" | jq --argjson ts "$last_commit_epoch" '
     [ .[]
-      | select(.user.login == "copilot-pull-request-reviewer[bot]")
+      | select(.user.login == "copilot-pull-request-reviewer[bot]" or .user.login == "copilot-pull-request-reviewer")
       | select(.state == "COMMENTED")
       | . as $r
       | ($r.submitted_at | fromdateiso8601) as $submitted
@@ -61,7 +61,7 @@ while true; do
     sleep 30
     continue
   fi
-  cleaned_review=$(echo "$copilot_reviews" | jq -r '.[] | "## Review ID: \(.id)\nSubmitted: \(.submitted_at)\nState: \(.state)\n\n\(.body)\n\n---\n"' | sed '/<details>/q' | sed '$d')
+  # Removed unused cleaned_review variable assignment
 
   review_count=$(echo "$copilot_reviews" | jq 'length')
   echo "Found $review_count recent Copilot review(s)."
@@ -100,7 +100,8 @@ while true; do
     # Filter for Copilot comments and count total/resolved/unresolved
     all_copilot_comments=$(echo "$comments_json" | jq '
       [.data.repository.pullRequest.reviewThreads.nodes[]
-        | select(.comments.nodes[]?.author.login == "copilot-pull-request-reviewer")
+        | .comments.nodes = (.comments.nodes | map(select(.author.login == "copilot-pull-request-reviewer" or .author.login == "copilot-pull-request-reviewer[bot]")))
+        | select(.comments.nodes | length > 0)
       ]')
     
     total_comment_count=$(echo "$all_copilot_comments" | jq 'length')
