@@ -48,7 +48,7 @@ while true; do
 
   copilot_reviews=$(echo "$reviews_json" | jq --argjson ts "$last_commit_epoch" '
     [ .[]
-      | select(.user.login == "Copilot")
+      | select(.user.login == "copilot-pull-request-reviewer[bot]")
       | select(.state == "COMMENTED")
       | . as $r
       | ($r.submitted_at | fromdateiso8601) as $submitted
