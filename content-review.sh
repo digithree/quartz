@@ -43,14 +43,12 @@ fi
 
 attempt=1
 while true; do
-  echo "Polling for Copilot review via review events (attempt $attempt)..."
-
   # Get all review comments (code comments) from Copilot
   comments_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/comments")
 
   copilot_comments=$(echo "$comments_json" | jq --argjson ts "$last_commit_epoch" '
     [ .[]
-      | select(.user.login == "copilot-pull-request-reviewer[bot]")
+      | select(.user.login == "Copilot")
       | . as $c
       | ($c.created_at | fromdateiso8601) as $created
       | select($created > $ts)
