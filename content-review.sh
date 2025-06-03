@@ -43,38 +43,58 @@ fi
 
 attempt=1
 while true; do
-  # Get all review comments (code comments) from Copilot
-  comments_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/comments")
+# Get all reviews from Copilot that are unresolved (state = "COMMENTED")
+  reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
 
-  copilot_comments=$(echo "$comments_json" | jq --argjson ts "$last_commit_epoch" '
+  copilot_reviews=$(echo "$reviews_json" | jq --argjson ts "$last_commit_epoch" '
     [ .[]
       | select(.user.login == "Copilot")
-      | . as $c
-      | ($c.created_at | fromdateiso8601) as $created
-      | select($created > $ts)
+      | select(.state == "COMMENTED")
+      | . as $r
+      | ($r.submitted_at | fromdateiso8601) as $submitted
+      | select($submitted > $ts)
     ]')
 
-  if [[ -z "$copilot_comments" || "$copilot_comments" == "null" || "$copilot_comments" == "[]" ]]; then
-    echo "Waiting for Copilot review comments after last commit... (attempt $attempt)"
+  if [[ -z "$copilot_reviews" || "$copilot_reviews" == "null" || "$copilot_reviews" == "[]" ]]; then
+    echo "Waiting for Copilot reviews after last commit... (attempt $attempt)"
     attempt=$((attempt + 1))
     sleep 30
     continue
   fi
+  cleaned_review=$(echo "$copilot_reviews" | jq -r '.[] | "## Review ID: \(.id)\nSubmitted: \(.submitted_at)\nState: \(.state)\n\n\(.body)\n\n---\n"' | sed '/<details>/q' | sed '$d')
 
-  comment_count=$(echo "$copilot_comments" | jq 'length')
-  echo "Copilot review found with $comment_count code comment(s)."
+  review_count=$(echo "$copilot_reviews" | jq 'length')
+  echo "Found $review_count unresolved Copilot review(s)."
 
-  if [[ "$comment_count" -eq 0 ]]; then
-    echo "Copilot generated no code comments. Merging PR..."
+  if [[ "$review_count" -eq 0 ]]; then
+    echo "No unresolved Copilot reviews found. Merging PR..."
     gh pr merge "$pr_number" --squash --delete-branch
     break
   else
-    # Save comments to file
-    mkdir -p pr-review
-    echo "$copilot_comments" | jq -r '.[] | "## File: \(.path)\nLine: \(.line // .original_line)\n\n\(.body)\n"' > "pr-review/$pr_number.md"
-    echo "Copilot generated $comment_count code comment(s). Review saved to pr-review/$pr_number.md; please review."
-    break
+    # Get all review comments (code comments) from Copilot
+    comments_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/comments")
+
+    copilot_comments=$(echo "$comments_json" | jq '
+      [ .[]
+        | select(.user.login == "Copilot")
+      ]')
+    
+    comment_count=$(echo "$copilot_comments" | jq 'length')
+    echo "Copilot review found with $comment_count code comment(s)."
+
+    if [[ "$comment_count" -eq 0 ]]; then
+      echo "Copilot generated no code comments. Merging PR..."
+      gh pr merge "$pr_number" --squash --delete-branch
+      break
+    else
+      # Save comments to file
+      mkdir -p pr-review
+      echo "$copilot_comments" | jq -r '.[] | "## File: \(.path)\nLine: \(.line // .original_line)\n\n\(.body)\n"' > "pr-review/$pr_number.md"
+      echo "Copilot generated $comment_count code comment(s). Review saved to pr-review/$pr_number.md; please review."
+      break
+    fi
   fi
+
 done
 
 echo -e "\a"
