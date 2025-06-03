@@ -28,7 +28,7 @@ if [[ -z "$pr_number" || "$pr_number" == "null" ]]; then
   exit 1
 fi
 
-echo "Found PR #$pr_number. Waiting for Copilot review..."
+echo "Found PR #$pr_number. Fetching Copilot review..."
 
 # Get timestamp of most recent commit in the PR branch and convert to epoch
 last_commit_time=$(git log -1 --format="%cI" "$branch_name")
@@ -56,7 +56,7 @@ while true; do
     ]')
 
   if [[ -z "$copilot_reviews" || "$copilot_reviews" == "null" || "$copilot_reviews" == "[]" ]]; then
-    echo "Waiting for Copilot reviews after last commit... (attempt $attempt)"
+    echo "Waiting for Copilot review after last commit... (attempt $attempt)"
     attempt=$((attempt + 1))
     sleep 30
     continue
@@ -71,26 +71,58 @@ while true; do
     gh pr merge "$pr_number" --squash --delete-branch
     break
   else
-    # Get all review comments (code comments) from Copilot
-    comments_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/comments")
+    # Get all review comments (code comments) from Copilot using GraphQL
+    repo_owner=$(gh repo view --json owner -q .owner.login)
+    repo_name=$(gh repo view --json name -q .name)
+    
+    comments_json=$(gh api graphql -F pr_number="$pr_number" -f query="
+      query(\$pr_number: Int!) {
+        repository(owner: \"$repo_owner\", name: \"$repo_name\") {
+          pullRequest(number: \$pr_number) {
+            reviewThreads(first: 100) {
+              nodes {
+                isResolved
+                comments(first: 10) {
+                  nodes {
+                    bodyText
+                    author {
+                      login
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ")
 
-    copilot_comments=$(echo "$comments_json" | jq '
-      [ .[]
-        | select(.user.login == "Copilot")
+    # Filter for Copilot comments and count total/resolved/unresolved
+    all_copilot_comments=$(echo "$comments_json" | jq '
+      [.data.repository.pullRequest.reviewThreads.nodes[]
+        | select(.comments.nodes[]?.author.login == "copilot-pull-request-reviewer")
       ]')
     
-    comment_count=$(echo "$copilot_comments" | jq 'length')
-    echo "Copilot review found with $comment_count code comment(s)."
+    total_comment_count=$(echo "$all_copilot_comments" | jq 'length')
+    resolved_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.isResolved == true)] | length')
+    unresolved_comment_count=$(echo "$all_copilot_comments" | jq '[.[] | select(.isResolved == false)] | length')
+    
+    echo "Total Copilot comments: $total_comment_count"
+    echo "Resolved comments: $resolved_comment_count"
+    echo "Unresolved comments: $unresolved_comment_count"
 
-    if [[ "$comment_count" -eq 0 ]]; then
-      echo "Copilot generated no code comments. Merging PR..."
-      gh pr merge "$pr_number" --squash --delete-branch
+    if [[ "$unresolved_comment_count" -eq 0 ]]; then
+      echo "No unresolved Copilot comments. Merging PR..."
+      #gh pr merge "$pr_number" --squash --delete-branch
       break
     else
-      # Save comments to file
+      # Save only unresolved comments to file
       mkdir -p pr-review
-      echo "$copilot_comments" | jq -r '.[] | "## File: \(.path)\nLine: \(.line // .original_line)\n\n\(.body)\n"' > "pr-review/$pr_number.md"
-      echo "Copilot generated $comment_count code comment(s). Review saved to pr-review/$pr_number.md; please review."
+      echo "$all_copilot_comments" | jq -r '
+        [.[] | select(.isResolved == false) | .comments.nodes[]?.bodyText]
+        | join("\n---\n")
+      ' > "pr-review/$pr_number.md"
+      echo "Unresolved Copilot comments saved to pr-review/$pr_number.md; please review."
       break
     fi
   fi
