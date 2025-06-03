@@ -37,6 +37,7 @@ I've surfaced the best entry points into my work here for convenience:
 
 ## 🤓 [[Reading]], reviewing and taking notes
 
+* [[Art in the After-Culture by Ben Davis]]
 * [[Against the Grain by James C. Scott]]
 
 [[Reading|More...]]

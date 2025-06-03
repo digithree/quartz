@@ -6,7 +6,7 @@ I am based in Galway, Ireland where I grew up most of my life and settled here a
 
 ## Programming
 
-*A practice of Information [[Technology]].*
+*A practice of Information [[Technology as a thing]].*
 
 My most invested in area of expertise is the craft of computer programming, which I have been working at more or less continuously since the age of 8 or 9, 30 years at this point. My [LinkedIn profile](https://www.linkedin.com/in/simon-kenny-55997b81/) is the best place to learn more about my professional career in technology, academic teaching and mentorship whereas my [GitHub account](https://github.com/digithree) is the home for the rougher and more exploratory work. Much the latter case has been lost or deleted over the years, there's no point in holding on to everything. It's okay to forget some things.
 
