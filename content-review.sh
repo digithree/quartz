@@ -64,7 +64,7 @@ while true; do
   cleaned_review=$(echo "$copilot_reviews" | jq -r '.[] | "## Review ID: \(.id)\nSubmitted: \(.submitted_at)\nState: \(.state)\n\n\(.body)\n\n---\n"' | sed '/<details>/q' | sed '$d')
 
   review_count=$(echo "$copilot_reviews" | jq 'length')
-  echo "Found $review_count unresolved Copilot review(s)."
+  echo "Found $review_count recent Copilot review(s)."
 
   if [[ "$review_count" -eq 0 ]]; then
     echo "No unresolved Copilot reviews found. Merging PR..."
@@ -118,9 +118,8 @@ while true; do
     else
       # Save only unresolved comments to file
       mkdir -p pr-review
-      echo "$all_copilot_comments" | jq -r '
-        [.[] | select(.isResolved == false) | .comments.nodes[]?.bodyText]
-        | join("\n---\n")
+      echo "$all_copilot_comments" | jq '
+        [.[] | select(.isResolved == false)]
       ' > "pr-review/$pr_number.md"
       echo "Unresolved Copilot comments saved to pr-review/$pr_number.md; please review."
       break
