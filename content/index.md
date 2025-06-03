@@ -35,6 +35,12 @@ I've surfaced the best entry points into my work here for convenience:
 
 [[Articles|More...]]
 
+## 🤓 [[Reading]], reviewing and taking notes
+
+* [[Against the Grain by James C. Scott]]
+
+[[Reading|More...]]
+
 ## 🥁 [[Music]] that was played
 * [Zinc](https://zincband.bandcamp.com/album/zinc) debut self-titled album
 * [Gamelan Re-imaginings Vol. 1](https://bitwiseandmadek.bandcamp.com/album/gamelan-re-imaginings-vol-1) with *Bitwise + Madek*
