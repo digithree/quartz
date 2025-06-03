@@ -1,3 +1,10 @@
+---
+tags:
+  - christianity
+  - medieval
+  - poetry
+  - epic
+---
 [Open Library: OL93227W](https://openlibrary.org/works/OL93227W/Inferno)
 
 The first book of [[The Divine Comedy by Dante Alighieri]].
