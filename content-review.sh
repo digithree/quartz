@@ -43,48 +43,36 @@ fi
 
 attempt=1
 while true; do
-  echo "Polling for Copilot review via review events (attempt $attempt)..."
+  # Get all review comments (code comments) from Copilot
+  comments_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/comments")
 
-  reviews_json=$(gh api "repos/$(gh repo view --json nameWithOwner -q .nameWithOwner)/pulls/$pr_number/reviews")
-
-  copilot_review=$(echo "$reviews_json" | jq --argjson ts "$last_commit_epoch" '
+  copilot_comments=$(echo "$comments_json" | jq --argjson ts "$last_commit_epoch" '
     [ .[]
-      | select(.user.login == "copilot-pull-request-reviewer[bot]")
-      | . as $r
-      | ($r.submitted_at | fromdateiso8601) as $submitted
-      | select($submitted > $ts)
-    ][-1]')
+      | select(.user.login == "Copilot")
+      | . as $c
+      | ($c.created_at | fromdateiso8601) as $created
+      | select($created > $ts)
+    ]')
 
-  if [[ -z "$copilot_review" || "$copilot_review" == "null" ]]; then
-    echo "Waiting for Copilot review after last commit... (attempt $attempt)"
+  if [[ -z "$copilot_comments" || "$copilot_comments" == "null" || "$copilot_comments" == "[]" ]]; then
+    echo "Waiting for Copilot review comments after last commit... (attempt $attempt)"
     attempt=$((attempt + 1))
     sleep 30
     continue
   fi
 
-  copilot_review_body=$(echo "$copilot_review" | jq -r '.body')
+  comment_count=$(echo "$copilot_comments" | jq 'length')
+  echo "Copilot review found with $comment_count code comment(s)."
 
-  echo "Copilot review found."
-
-  # Save review body to file
-  mkdir -p pr-review
-  echo "$copilot_review_body" > "pr-review/$pr_number.md"
-
-  if echo "$copilot_review_body" | grep -q "generated no comments"; then
-    echo "Copilot generated no comments. Merging PR..."
-    gh pr merge "$pr_number" --squash --delete-branch
-    break
-  elif echo "$copilot_review_body" | grep -Eq "generated [0-9]+ comment(s)?\.?"; then
-    echo "Copilot generated comments. Review saved to pr-review/$pr_number.md; please review."
-    break
-  elif echo "$copilot_review_body" | grep -q "Pull Request Overview"; then
-    # It contains a review but not comments
-    echo "Copilot generated no comments. Merging PR..."
+  if [[ "$comment_count" -eq 0 ]]; then
+    echo "Copilot generated no code comments. Merging PR..."
     gh pr merge "$pr_number" --squash --delete-branch
     break
   else
-    echo "Unexpected Copilot review format. Raw output:"
-    echo "$copilot_review_body"
+    # Save comments to file
+    mkdir -p pr-review
+    echo "$copilot_comments" | jq -r '.[] | "## File: \(.path)\nLine: \(.line // .original_line)\n\n\(.body)\n"' > "pr-review/$pr_number.md"
+    echo "Copilot generated $comment_count code comment(s). Review saved to pr-review/$pr_number.md; please review."
     break
   fi
 done
