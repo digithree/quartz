@@ -2,11 +2,9 @@ I am an author, technologist, educator, musician, and game designer.
 
 A constant dabbler, I sometimes develop enough competency to make an impact in a strand of interest. It is difficult to avoid wearing these interests as identities and valuing oneself by proxy. At the core, for me, it is just making time to make art, to think and talk, and to dedicate some time to building things, even if only for a season.
 
-I am based in Galway, Ireland where I grew up most of my life and settled here after some travels and education abroad. I am originally from Northern Ireland, with roots in Belfast and Fermanagh.
+I am based in Galway, Ireland where I grew up most of my life and settled here after some travels and education abroad. I am originally from Northern Ireland, with roots in Belfast and Fermanagh. I have a young daughter ❤️
 
 ## Programming
-
-*A practice of Information [[Technology as a thing]].*
 
 My most invested in area of expertise is the craft of computer programming, which I have been working at more or less continuously since the age of 8 or 9, 30 years at this point. My [LinkedIn profile](https://www.linkedin.com/in/simon-kenny-55997b81/) is the best place to learn more about my professional career in technology, academic teaching and mentorship whereas my [GitHub account](https://github.com/digithree) is the home for the rougher and more exploratory work. Much the latter case has been lost or deleted over the years, there's no point in holding on to everything. It's okay to forget some things.
 
