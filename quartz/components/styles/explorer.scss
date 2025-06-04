@@ -125,6 +125,12 @@ button.desktop-explorer {
       opacity: 0.75;
       pointer-events: all;
 
+      &::before {
+        content: "• ";
+        margin-right: 0.5rem;
+        opacity: 0.6;
+      }
+
       &.active {
         opacity: 1;
         color: var(--tertiary);
