@@ -7,10 +7,14 @@ What we do regularly is what shapes us and the source of a powerful, steady crea
 
 ---
 
-Welcome. Here you'll find information about who I am and my various projects.
+On this website you'll find information about who I am and my various projects.
 Most of what I create is available for free as online articles, PDFs, open source code, or freely downloadable music.
 
-My [[Bio]] is a good place to start, or what I have recently been [[Thinking]] about.
+## Quick start
+
+* 💭 What I'm [[Thinking]] about
+* 🔎 Various [[Interests]]
+* 👋 My [[Bio]]
 
 ---
 

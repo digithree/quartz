@@ -1,6 +1,3 @@
----
-title: Technology
----
 ![[technology-as-thing.jpg]]
 _Is this technology? A scene prepared in my childhood bedroom, ~2001._
 

@@ -2,7 +2,7 @@ I am an author, technologist, educator, musician, and game designer.
 
 A constant dabbler, I sometimes develop enough competency to make an impact in a strand of interest. It is difficult to avoid wearing these interests as identities and valuing oneself by proxy. At the core, for me, it is just making time to make art, to think and talk, and to dedicate some time to building things, even if only for a season.
 
-I am based in Galway, Ireland where I grew up most of my life and settled here after some travels and education abroad. I am originally from Northern Ireland, with roots in Belfast and Fermanagh.
+I am based in Galway, Ireland where I grew up most of my life and settled here after some travels and education abroad. I am originally from Northern Ireland, with roots in Belfast and Fermanagh. I have a young daughter ❤️
 
 ## Programming
 
