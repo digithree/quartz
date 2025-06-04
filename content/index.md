@@ -26,6 +26,9 @@ I've surfaced the best entry points into my work here for convenience:
 * (2023) [[Books#A Critical Introduction to Tarot]]: Examining the Nature of a Belief in Tarot. [Buy (USA)](https://www.amazon.com/Critical-Introduction-Tarot-Examining-Nature/dp/1803413921) or [(UK)](https://www.amazon.co.uk/Critical-Introduction-Tarot-Examining-Nature/dp/1803413921/)
 * (2024) [[A-Cultural-Reader-of-the-Tarot-by-Simon-Kenny-Rev-2.pdf |A Cultural Reader of the Tarot]] - free PDF
 
+## ✏️ [[Essays]] self-published
+* [[A solution in search of a problem - Image Generating AI]]
+
 ## 📜 [[Poems]] I'm writing
 * [[Fox and the Apple]], based on the Aesop's Fable
 * [[Fallen]], the view from a mundane calamity
