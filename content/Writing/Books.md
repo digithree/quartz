@@ -2,11 +2,17 @@
 
 Available for [[A-Cultural-Reader-of-the-Tarot-by-Simon-Kenny-Rev-2.pdf|free download]].
 
-Tarot is everywhere. From spiritual practices to games, films and other media, this enigmatic deck of cards has captured the imagination of many. For even those already familiar with Tarot, there is much to explore and review as new works are created, and I happily find myself with a vast subject matter. If you’re wondering what is behind the use of Tarot, this short pamphlet is for you.
+[[Tarot]] is everywhere. From spiritual practices to games, films and other media, this enigmatic deck of cards has captured the imagination of many. For even those already familiar with Tarot, there is much to explore and review as new works are created, and I happily find myself with a vast subject matter. If you’re wondering what is behind the use of Tarot, this short pamphlet is for you.
 
 We will discuss some of the most compelling intersections of Tarot today: AI, games, and Tarot as a heretical practice. The approach I take to Tarot is to go beyond the surface level and to consider how and why it works (indeed if it does) and what impact Tarot has on the world.
 
 I offer this free ebook pamphlet to my readers as a thank you. It is intended to complement my book *A Critical Introduction to the Tarot* in which I started this research. In this pamphlet, we will continue the exploration of this interesting terrain. I hope you enjoy this new work and that it prompts you to think deeply and critically about Tarot and its practice.
+
+Chapters:
+
+1. We Can Generate It for You Wholesale: Tarot and AI
+2. Playing with Fate: Tarot in Games, Games for Tarot
+3. Tarot, a Heretical Mysticism
 
 # A Critical Introduction to Tarot
 
@@ -16,7 +22,7 @@ Links:
 
 _From the back cover:_
 
-How does Tarot work? Why is it so popular today? Is it just for fortune tellers?
+How does [[Tarot]] work? Why is it so popular today? Is it just for fortune tellers?
 
 Tarot has seen a recent uptick in interest that warrants explanation. This book, however, is not another take on the cards’ meanings and how to read them. Instead, independent researcher Simon Kenny presents Tarot to the incredulous and curious and those who wish to know the basis for its continued cultural relevance.
 
