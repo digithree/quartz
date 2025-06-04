@@ -11,10 +11,14 @@ On this website you'll find information about who I am and my various projects.
 Most of what I create is available for free as online articles, PDFs, open source code, or freely downloadable music.
 
 ## Quick start
-
 * 💭 What I'm [[Thinking]] about
 * 🔎 Various [[Interests]]
 * 👋 My [[Bio]]
+
+## 📖 Reading desk
+* [[Bullshit Jobs by David Graeber]]
+* [[The Study Quran trans. Seyyed Hossein Nasr et al]]
+* [[The Eye of the World by Robert Jordan]]
 
 ---
 
@@ -42,7 +46,7 @@ I've surfaced the best entry points into my work here for convenience:
 
 [[Articles|More...]]
 
-## 🤓 [[Reading]], reviewing and taking notes
+## 🤓 [[Reading|Read]], reviewed or with notes
 
 * [[Art in the After-Culture by Ben Davis]]
 * [[Against the Grain by James C. Scott]]
