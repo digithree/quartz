@@ -143,10 +143,18 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count"
       );
       goatcounterScript.onload = () => {
-        window.goatcounter = { no_onload: true };
-        goatcounter.count({ path: location.pathname });
+        // Wait for script to fully execute before calling count
+        setTimeout(() => {
+          window.goatcounter = window.goatcounter || {};
+          window.goatcounter.no_onload = true;
+          if (typeof goatcounter.count === 'function') {
+            goatcounter.count({ path: location.pathname });
+          }
+        }, 0);
         document.addEventListener('nav', () => {
-          goatcounter.count({ path: location.pathname });
+          if (window.goatcounter && typeof goatcounter.count === 'function') {
+            goatcounter.count({ path: location.pathname });
+          }
         });
       };
 
