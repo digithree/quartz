@@ -13,7 +13,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'goatcounter',
+      websiteId: 'simonkenny-co',
+      host: 'analytics.enchiridion.xyz',
+      scriptSrc: 'https://analytics.enchiridion.xyz/count.js'
     },
     locale: "en-US",
     baseUrl: "simonkenny.co",
