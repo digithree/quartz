@@ -14,7 +14,8 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "goatcounter",
-      host: "analytics.enchiridion.xyz",
+      websiteId: "analytics",
+      host: "enchiridion.xyz",
       scriptSrc: "https://analytics.enchiridion.xyz/count.js"
     },
     locale: "en-US",
