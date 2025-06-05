@@ -147,13 +147,13 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         setTimeout(() => {
           window.goatcounter = window.goatcounter || {};
           window.goatcounter.no_onload = true;
-          if (typeof goatcounter.count === 'function') {
-            goatcounter.count({ path: location.pathname });
+          if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
+            window.goatcounter.count({ path: location.pathname });
           }
         }, 0);
         document.addEventListener('nav', () => {
-          if (window.goatcounter && typeof goatcounter.count === 'function') {
-            goatcounter.count({ path: location.pathname });
+          if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
+            window.goatcounter.count({ path: location.pathname });
           }
         });
       };
