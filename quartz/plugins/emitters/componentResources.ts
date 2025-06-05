@@ -144,13 +144,13 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       );
       goatcounterScript.onload = () => {
         // Wait for script to fully execute before calling count
-        setTimeout(() => {
+        Promise.resolve().then(() => {
           window.goatcounter = window.goatcounter || {};
           window.goatcounter.no_onload = true;
           if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
             window.goatcounter.count({ path: location.pathname });
           }
-        }, 0);
+        });
         document.addEventListener('nav', () => {
           if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
             window.goatcounter.count({ path: location.pathname });
