@@ -19,6 +19,7 @@ Most of what I create is available for free as online articles, PDFs, open sourc
 * [[Bullshit Jobs by David Graeber]]
 * [[The Study Quran trans. Seyyed Hossein Nasr et al]]
 * [[The Eye of the World by Robert Jordan]]
+* [[TechnoFeudalism by Yanis Varoufakis]]
 
 ---
 
