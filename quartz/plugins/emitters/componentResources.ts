@@ -143,10 +143,18 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
         "https://${cfg.analytics.websiteId}.${cfg.analytics.host ?? "goatcounter.com"}/count"
       );
       goatcounterScript.onload = () => {
-        window.goatcounter = { no_onload: true };
-        goatcounter.count({ path: location.pathname });
+        // Wait for script to fully execute before calling count
+        Promise.resolve().then(() => {
+          window.goatcounter = window.goatcounter || {};
+          window.goatcounter.no_onload = true;
+          if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
+            window.goatcounter.count({ path: location.pathname });
+          }
+        });
         document.addEventListener('nav', () => {
-          goatcounter.count({ path: location.pathname });
+          if (window.goatcounter?.count && typeof window.goatcounter.count === 'function') {
+            window.goatcounter.count({ path: location.pathname });
+          }
         });
       };
 
