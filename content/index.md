@@ -49,6 +49,7 @@ I've surfaced the best entry points into my work here for convenience:
 
 ## 🤓 [[Reading|Read]], reviewed or with notes
 
+* [[Islam by Karen Armstrong]]
 * [[Art in the After-Culture by Ben Davis]]
 * [[Against the Grain by James C. Scott]]
 

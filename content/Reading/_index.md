@@ -8,7 +8,13 @@ title: Reading
 
 ## With notes
 
+* [[Islam by Karen Armstrong]]
 * [[Against the Grain by James C. Scott]]
+
+## With just a few quotes
+
+* [[Lost Christianities Bart D. Ehrman]]
+* [[The Secret Teachings of All Ages by Manly P Hall]]
 
 ---
 # All books ⤵️
