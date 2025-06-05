@@ -13,10 +13,10 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'goatcounter',
-      websiteId: 'simonkenny-co',
-      host: 'analytics.enchiridion.xyz',
-      scriptSrc: 'https://analytics.enchiridion.xyz/count.js'
+      provider: "goatcounter",
+      websiteId: "simonkenny-co",
+      host: "analytics.enchiridion.xyz",
+      scriptSrc: "https://analytics.enchiridion.xyz/count.js"
     },
     locale: "en-US",
     baseUrl: "simonkenny.co",
@@ -80,7 +80,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Poetry({
-        poetryFont: "'Cormorant Garamond'",
+        poetryFont: "Cormorant Garamond",
       }),
     ],
     filters: [Plugin.RemoveDrafts()],
