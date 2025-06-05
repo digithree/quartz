@@ -143,7 +143,7 @@ Nothing groundbreaking here that many reasonable people would not already take p
 
 > Religious ideas and practices take root not because they are promoted by forceful theologians, nor because they can be shown to have a sound historical or rational basis, but because they are found in practice to give the faithful a sense of sacred transcendence. [p. 51]
 
-> But, despite the convictions of many of the faithful in any tradition, who are convinced that religion never changes and that their beliefs and practices are identical with those of the founders of their faith, religion must changes in order to survive. [p. 64]
+> But, despite the convictions of many of the faithful in any tradition, who are convinced that religion never changes and that their beliefs and practices are identical with those of the founders of their faith, religion must change in order to survive. [p. 64]
 
 We could say this for all kind of founder-based ideologies, including the Constitutionalism of the USA. Or perhaps it is better called Founderism. I believe this is discussed also in [[Accidental Gods by Amma Della Subin]] (not yet read, return to confirm after reading).
 
