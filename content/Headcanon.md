@@ -81,7 +81,7 @@ In first days of the new year in 2025, I tried to compile a list of literature t
 | Blaise Pascal | Rationalism | 1600 | Pensees |
 | Daniel Defoe | Early Realism | 1600 | Robinson Crusoe |
 | Gottfried Wilhelm Leibniz | Rationalism | 1600 | Monodology |
-| Issac Newton | Enlightenment | 1600 | The Principia |
+| Isaac Newton | Enlightenment | 1600 | The Principia |
 | John Bunyan | Puritanism | 1600 | Pilgrim’s Progress |
 | John Locke | Empiricism | 1600 | Two Treatises of Government |
 | John Milton | Humanism | 1600 | Paradise Lost |
