@@ -14,4 +14,6 @@ Not yet read.
 
 ---
 
+# Themes
+
 Introduces idea of philosopher-kings and a system of social hierarchy, including the promoting the [[Problem of Elite Knowledge]].

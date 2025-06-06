@@ -4,4 +4,6 @@ Read in paperback.
 
 ---
 
+# Themes
+
 * [[Post-capitalism]]

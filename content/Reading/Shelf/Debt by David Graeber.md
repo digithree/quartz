@@ -9,4 +9,7 @@ tags:
 
 Read paperback.
 
+---
+# Themes
+
 * [[Post-capitalism]]
