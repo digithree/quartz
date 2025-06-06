@@ -8,7 +8,7 @@ Often Leftist writers speak about the utopia that will be the post-capitalist wo
 
 # The Present
 
-Some say capitalism is has already ended or morphed into something distinctly different.
+Some say capitalism has already ended or morphed into something distinctly different.
 
 ## Techno-feudalism
 
