@@ -7,4 +7,4 @@ Reading on audiobook.
 
 ---
 
-* [[Post-capitalism]]
+A major contributor to the idea of [[Post-capitalism#Techno-feudalism]].
