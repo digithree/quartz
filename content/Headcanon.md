@@ -255,7 +255,7 @@ In first days of the new year in 2025, I tried to compile a list of literature t
 | Jane Goodall  | Environmentalism | 1900 | In The Shadow of Man, Reason for Hope |
 | Jean Baudrillard | Postmodernism | 1900 | Simulacra and Simulation, The Consumer Society: Myths and Structures, The Gulf War Did Not Take Place |
 | Jean Rhys | Modernism | 1900 | Wide Sargasso Sea, Good Morning, Midnight |
-| Jean-Paul Satre | Atheist Existentialism | 1900 | Being and Nothingness, No Exit, Existentialism is Humanism |
+| Jean-Paul Sartre | Atheist Existentialism | 1900 | Being and Nothingness, No Exit, Existentialism is Humanism |
 | John Cheever | Modern Realism | 1900 | The Stories of John Cheever |
 | John Rawls | Modern Liberalism | 1900 | A Theory of Justice, Political Liberalism |
 | John Steinbeck | Modern Realism | 1900 | The Grapes of Wrath, Of Mice and Men |
