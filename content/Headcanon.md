@@ -72,7 +72,7 @@ In first days of the new year in 2025, I tried to compile a list of literature t
 | Edmund Spenser | Humanism | 1500 | The Faeire Queen |
 | Erasmus | Humanism | 1500 | The Praise of Folly |
 | Frances Bacon | Empiricism | 1500 | Novum Organum |
-| Luis de Camoes | Classicism | 1500 | Oslusiadas |
+| Luis de Camoes | Classicism | 1500 | Os Lusíadas |
 | Michel de Montaigne | Humanism | 1500 | Essays |
 | Miguel de Cervantes | Humanism | 1500 | Don Quixote |
 | Shakespeare | Early Modern | 1500 | Hamlet, Romeo and Juliet, Sonnets |
