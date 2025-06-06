@@ -9,3 +9,9 @@ tags:
 [Open Library: OL27816119W](https://openlibrary.org/works/OL27816119W/Pirate_Enlightenment)
 
 Read hardback.
+
+---
+
+# Themes
+
+* [[Post-colonialism]]

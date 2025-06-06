@@ -7,4 +7,6 @@ Reading on audiobook.
 
 ---
 
+# Themes
+
 A major contributor to the idea of [[Post-capitalism#Techno-feudalism]].
