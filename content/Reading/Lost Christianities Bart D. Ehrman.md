@@ -10,7 +10,7 @@ Read in paperback.
 
 ---
 
-# Quotes
+# Notes
 
 ## On the [[Problem of Elite Knowledge]]
 

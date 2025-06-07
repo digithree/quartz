@@ -11,6 +11,8 @@ Related to:
 * Infantilisation / patronising
 * Political freedom
 * Equality and class
+* "Information wants to be free"
+* Intellectual property
 
 ## Why should it matter to me?
 
@@ -22,7 +24,11 @@ That said, in the era of the internet, there is more knowledge available than th
 
 Similar to occultism (that which is hidden), esotericism is the revelation of the _inside of things_. That is, that there are secrets hidden in plain sight that only those with certain methods can reveal.
 
-There are many practices and knowledges that can be considered esoteric, I have selected a few that have been major themes of my study:
+## Mystery Schools
+
+A chief topic of the early part of [[The Secret Teachings of All Ages by Manly P Hall]].
+
+Seeming precursors to [[Problem of Elite Knowledge#Guild and trade secrets]]. Note the overlap in the *Freemasons*, originally masons who worked with 'freestone', stone which is particularly useful in carving, usually sandstone. Now, only a secretive fraternal society, once perhaps a guild of workers, or at least in the style of such a guild.
 
 ## Numerology
 
@@ -38,6 +44,8 @@ Unlike some other esoteric practices that have some plausibility (depending thou
 
 *Especially academic and other technical language.*
 
+## Classical roots
+
 A good example of this is the [Ologies podcast](https://www.alieward.com/ologies) in which academics and experts are interviewed on their field of study (what the suffix *ology* means) for a popular audience. I came across it when a researcher in Trinity College Dublin (and associated with the ADAPT Centre where I work) [Dr. Abeba Birhane](https://www.alieward.com/ologies/artificialintelligenceethicology), was interviewed recently on the 'ology' of *Artificial Intelligence Ethicology*.
 
 Looking at some of the other more obscure 'ologies' of previous episodes, we find ones that don't even have a wikipedia page such as *salugenology* (well-being), *canistrumology* (basket making) and *ambystomology* (family of amphibians including the famed axolotl). There are, of course, more usual ones such as cardiology and post-viral epidemiology as well as neologisms more easily parsable, such as confectionology (sweets, candy).
@@ -50,4 +58,25 @@ This is all due, of course, to Latin being the lingua franca (again, it seems we
 
 These considerations also recall to me the preference of Tolkien (see [[Headcanon]]) for Germanic words in English for his writing, not Latinate words, such as we find in technical academic language but also in many words imported from French. (I've read this somewhere but should find its reference—[[Pin 📌]]).
 
-Finally, for me personally, the bristle is largely the gatekeeping aspect and the sneering insistence that one uses the _right_ words for things. I do 'play this game' sometimes in my writing as a matter of matching a certain tone, but it is something that often causes me to reflect on this state of affairs.
+Finally, for me personally, the bristle is largely the gatekeeping aspect and the sneering insistence that one uses the _right_ words for things. I do 'play this game' sometimes in my writing as a matter of matching a certain tone, but it is something that often causes me to reflect on this state of affairs. You could even call the name of this website "The Quotidian" an elite use of language, since *quotidian*, though a real word in English, is Latinate (via the French) and an obscure word. In common speech there would be the likelihood to confuse it with "quote" (both words are cognates in Latin but distinct in etymology).
+
+Which reminds me...
+
+## So and so said such and such
+
+[[Pin 📌]] to talk about elite markers of language in reference to the body of knowledge, a *canon* (see also my own [[Headcanon]]).
+
+# Guild and trade secrets
+
+Those ways and means of knowledge for work and production that guilds and trade organisations have traditionally kept to their members.
+
+The purpose of hiding the methods and know-how of the trade was to guard the viability of their livelihood by imposing standards but, perhaps more importantly, to restrict the number of practitioners. They are the precursors to modern unions in that they are a worker's institution, fiercely protective of the interests of their members and antagonistic to outsiders.
+
+There are, of course, negative aspects to such a system, especially in keeping outsiders out and the ability to apply prejudiced systems of membership control. (I speculate, it would be worth trying to find evidence of this or refute it.)
+
+In [[The Technology Trap by Carl Benedikt Frey]], the author notes that the dynamic of labouring guilds also held back technological innovation and it was only after their loss of power (this is, when it was violently wrested from them) that industrialisation could take off:
+
+> ...for most of history, the politics of progress were such that the ruling classes had little to gain and much to lose from the introduction of labor-replacing technology. They rightly feared that angry workers might rebel against the government. In the seventeenth century, for example, the craft guilds had become a force of growing political power in Europe, and they vehemently
+> resisted technologies that threatened their livelihoods. [p. xii]
+
+[[Pin 📌]]—add story from Granta on the remnants of coal 'free miners' in England and the elite knowledge and protection (and sexism) of the right to coal mining that exists.

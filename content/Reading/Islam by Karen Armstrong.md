@@ -11,7 +11,7 @@ Read in paperback.
 
 ---
 
-# Quotes
+# Notes
 
 Mostly on or around the topic on [[God as King]].
 
