@@ -12,7 +12,7 @@ Reading in paperback.
 
 ---
 
-# Quotes
+# Notes
 
 ## The paradox of modern work
 

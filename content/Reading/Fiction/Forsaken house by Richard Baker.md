@@ -17,7 +17,7 @@ Through a critical lens.
 
 ---
 
-# Quotes
+# Notes
 
 ## Similarity to Mongolian tropes
 
