@@ -1,5 +1,5 @@
 ---
-title: "The Universe Is a Dream: The Secrets ofExistence Revealed by Alexander Marchand"
+title: "The Universe Is a Dream: The Secrets of Existence Revealed by Alexander Marchand"
 tags:
   - philosophy
   - alt-science
