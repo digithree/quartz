@@ -18,8 +18,6 @@ I use headings here to help cross-referencing:
 ### Ch. 2: Playing with Fate: Tarot in Games, Games for Tarot
 ### Ch. 3: Tarot, a Heretical Mysticism
 
-[[Pin 📌]] — add bibliography
-
 ---
 # A Critical Introduction to Tarot
 
@@ -46,7 +44,7 @@ An accessible read aimed at demystifying Tarot for those unfamiliar with its mag
 > — T. Susan Chang
 
 Published by [Iff Books](https://www.collectiveinkbooks.com/iff-books/), an imprint of [Collective Ink Books](https://www.collectiveinkbooks.com/) (formerly John Hunt Publishing).
-##  CITTA Chapters
+##  Chapters
 
 ### Preface
 ### Ch. 1: Introduction
@@ -62,4 +60,50 @@ Published by [Iff Books](https://www.collectiveinkbooks.com/iff-books/), an impr
 ### Ch. 11: Tensions
 ### Ch. 12: Conclusion
 
-[[Pin 📌]] — add bibliography
+## Bibliography
+
+*Selected, not the complete bibliography.* I have starred the most important.
+
+* [[A Mind of One's Own by Louise M. Antony]]
+* [[The Mind Is Flat by Nick Chater]]
+* [[Riddles of Existence by Earl Conee and Theodore Sider]]
+* [[The Creative Tarot by Jessa Crispin]]
+* [[The Ultimate Guide to Tarot Spreads by Liz Dean]]
+* ⭐️ [[Missing Witches by Risa Dickens and Amy Torok]]
+* [[You Are the Placebo by Joe Dispenza]]
+* [[Understanding Aleister Crowley's Thoth Tarot by Lon Milo Duquette]]
+* [[Psychic Blues by Mark Edward]]
+* [[The Discovery of the Unconscious by Henri F. Ellenberger]]
+* ⭐️ [[A Cultural History of Tarot by Helen Farley]]
+* [[The New Feminist Tarot by Jean Freer]]
+* ⭐️ [[A World Full of Gods by John Michael Greer]]
+* ⭐️ [[The Tarot by Cynthia Giles]]
+* [[The Book of Tarot by Susan Gerulskis-Estes]]
+* [[Mystical Origins of the Tarot by Paul Huson]]
+* [[The 7 Laws of Magical Thinking by Matt Hutson]]
+* [[Memories, Dreams, Reflections by C. G. Jung]]
+* [[On the Nature of the Psyche by C. G. Jung]]
+* [[The Structure and Dynamics of the Psyche by C. G. Jung]]
+* ⭐️ [[Why Materialism Is Baloney by Bernardo Kastrup]]
+* ⭐️ [[Postcolonial Astrology by Alice Sparkly Kat]]
+* ⭐️ [[Jung the Mystic by Gary Lachman]]
+* ⭐️ [[The Secret Teachers of the Western World by Gary Lachman]]
+* [[Occult Features of Anarchism by Erica Lagalisse]]
+* [[The Universe Is a Dream by Alexander Marchand]]
+* [[The Universe Is Virtual by Alexander Marchand]]
+* [[The Drunkard’s Walk by Leonard Mlodinow]]
+* [[Tarot and the Archetypal Journey by Sallie Nichols]]
+* ⭐️ [[The Symbolism of the Tarot by P.D. Ouspensky]]
+* [[Rationality by Steven Pinker]]
+* [[The Tarot by Robert Place]]
+* [[The Quantum Prophets by Tom Roston]]
+* [[Reality Is Not What It Seems by Carlo Rovelli]]
+* ⭐️ [[The Mystery of Numbers by Annemarie Schimmel]]
+* [[Zero by Charles Seife]]
+* [[Science and Spiritual Practices by Rupert Sheldrake]]
+* [[Witches, Sluts, Feminists by Kristen J. Sollée]]
+* [[The Spiral Dance by Starhawk]]
+* [[The Unconscious Quantum by Victor J. Stenger]]
+* [[Spiritual Science by Steve Taylor]]
+* ⭐️ [[The Pictorial Key to the Tarot by Arthur Edward Waite]]
+* ⭐️ [[Holistic Tarot by Benebell Wen]]

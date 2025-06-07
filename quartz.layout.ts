@@ -9,6 +9,9 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "simonkenny@duck.com": "mailto:simonkenny@duck.com",
+      "GitHub": "https://github.com/digithree",
+      "LinkedIn": "https://www.linkedin.com/in/simon-kenny-55997b81/",
+      "Medium": "https://medium.com/@skenwrites",
     },
   }),
 }
@@ -16,12 +19,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.DesktopOnly(
-      Component.ConditionalRender({
-        component: Component.Breadcrumbs(),
-        condition: (page) => page.fileData.slug !== "index",
-      }),
-    ),
+    //Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -50,7 +48,10 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
+  beforeBody: [
+    //Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta()],
   left: [
     Component.DesktopOnly(Component.PageTitle()),
     Component.MobileOnly(Component.Spacer()),

@@ -1,7 +1,7 @@
 ---
 title: "Poems"
 ---
-The favourite poem of my late teens was *The Love Song of J. Alfred Prufrock* by T. S. Eliot. It spoke to the self-conscious mix of desires I was feeling at the time with Eliot's somewhat sentimental take on aging. It chimed with my own naivety and early fatalistic tendencies:
+The favourite poem of my late teens was *The Love Song of J. Alfred Prufrock* by [[Headcanon|T. S. Eliot]]. It spoke to the self-conscious mix of desires I was feeling at the time with Eliot's somewhat sentimental take on aging. It chimed with my own naivety and early fatalistic tendencies:
 
 ```poetry
 I grow old ... I grow old ...

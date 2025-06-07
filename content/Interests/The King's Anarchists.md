@@ -13,5 +13,5 @@ If the idea of 'God' is considered a useful fiction, it is one way to justify a 
 
 Future thinking and reading:
 
-* How have anarchists thought of themselves, especially before the Second World War? Were they as irreligious as they tend to be now?
+* How have anarchists thought of themselves, especially before the Second World War? Were they as irreligious as they tend to be now? see [[Occult Features of Anarchism by Erica Lagalisse]], review notes — [[Pin 📌]]
 * What about the intensely religious communities that have anarchist traits, like Jewish *kibbutz*?
