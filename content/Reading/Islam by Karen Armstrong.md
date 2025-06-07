@@ -3,6 +3,7 @@ title: "Islam: A Short History by Karen Armstrong"
 tags:
   - history
   - islam
+  - religious-studies
 ---
 [Open Library: OL3280813W](https://openlibrary.org/works/OL3280813W/Islam)
 

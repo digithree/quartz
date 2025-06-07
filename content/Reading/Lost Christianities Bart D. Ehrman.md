@@ -1,5 +1,8 @@
 ---
 title: "Lost Christianities: The Battle for Scripture and the Faiths We Never Knew by Bart D. Ehrman"
+tags:
+  - christianity
+  - religious-studies
 ---
 [Open Library: OL21113157M](https://openlibrary.org/works/OL18311W/Lost_Christianities?edition=key%3A/books/OL21113157M)
 

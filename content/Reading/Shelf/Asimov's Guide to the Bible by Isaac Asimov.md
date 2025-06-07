@@ -4,6 +4,7 @@ tags:
   - prehistory
   - kingship
   - christianity
+  - religious-studies
 ---
 [OpenLibrary: OL46391W](https://openlibrary.org/works/OL46391W/Asimov%27s_Guide_to_the_Bible)
 
