@@ -23,7 +23,7 @@ However, while widely used, its value is not to be considered as its use-value f
 * The Quran only exists in Arabic. Translations are not legitimate, only useful as a study companion, and prayers are always in Arabic
 * The Quran is primarily an oral text and is often recited from memory
 	* Professional reciters are called *qurra* (sing. *qari*)
-	* Those who have memorised the called *hafiz* (sing. *huffaz*)
+	* Those who have memorized it are called *hafiz* (pl. *huffaz*)
 * Similarly to Jewish prohibitions on certain iconography, rather Quranic calligraphy is inscribed in art and architecture instead of or with greater primacy than depictive art
 
 ## On The Study Quran edition
