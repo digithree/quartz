@@ -1,6 +1,6 @@
 # A Cultural Reader of the Tarot
 
-*I abbreviate this book at CROTTA.*
+*I abbreviate this book as CROTTA.*
 
 Available for [[A-Cultural-Reader-of-the-Tarot-by-Simon-Kenny-Rev-2.pdf|free download]].
 
