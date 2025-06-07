@@ -10,7 +10,7 @@ I realise this could easily come across as overly moralising and I'm well aware 
 
 No I mean [baddies](https://tvtropes.org/pmwiki/pmwiki.php/Main/Villains), not [baddies](https://www.urbandictionary.com/define.php?term=baddie).
 
-Tolkien's orcs are the archetypical example of this: irredeemably foul, subhuman creatures. Other classic fantasy has much of this kind of creature.
+[[Headcanon|Tolkien's]] orcs are the archetypical example of this: irredeemably foul, subhuman creatures. Other classic fantasy has much of this kind of creature.
 
 In Dungeons & Dragons, this is expressed in character _alignment_, which 'evil' being that of those strongly inclined toward, or even trapped within, villainy. Demons and devils for example (distinct in the D&D lore) are evil for the sake of it, though enemies to each other (they differ in being chaotic or lawful, respectively).
 

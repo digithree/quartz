@@ -1,5 +1,7 @@
 # A Cultural Reader of the Tarot
 
+*I abbreviate this book as CROTTA.*
+
 Available for [[A-Cultural-Reader-of-the-Tarot-by-Simon-Kenny-Rev-2.pdf|free download]].
 
 [[Tarot]] is everywhere. From spiritual practices to games, films and other media, this enigmatic deck of cards has captured the imagination of many. For even those already familiar with Tarot, there is much to explore and review as new works are created, and I happily find myself with a vast subject matter. If you’re wondering what is behind the use of Tarot, this short pamphlet is for you.
@@ -8,13 +10,20 @@ We will discuss some of the most compelling intersections of Tarot today: AI, ga
 
 I offer this free ebook pamphlet to my readers as a thank you. It is intended to complement my book *A Critical Introduction to the Tarot* in which I started this research. In this pamphlet, we will continue the exploration of this interesting terrain. I hope you enjoy this new work and that it prompts you to think deeply and critically about Tarot and its practice.
 
-Chapters:
+## CROTTA Chapters
 
-1. We Can Generate It for You Wholesale: Tarot and AI
-2. Playing with Fate: Tarot in Games, Games for Tarot
-3. Tarot, a Heretical Mysticism
+I use headings here to help cross-referencing:
 
+### Ch. 1: We Can Generate It for You Wholesale: Tarot and AI
+### Ch. 2: Playing with Fate: Tarot in Games, Games for Tarot
+### Ch. 3: Tarot, a Heretical Mysticism
+
+[[Pin 📌]] — add bibliography
+
+---
 # A Critical Introduction to Tarot
+
+*I abbreviate this book as CITTA.*
 
 Links:
 * Buy on Amazon [USA](https://www.amazon.com/Critical-Introduction-Tarot-Examining-Nature/dp/1803413921) or [UK](https://www.amazon.co.uk/Critical-Introduction-Tarot-Examining-Nature/dp/1803413921/)
@@ -37,3 +46,20 @@ An accessible read aimed at demystifying Tarot for those unfamiliar with its mag
 > — T. Susan Chang
 
 Published by [Iff Books](https://www.collectiveinkbooks.com/iff-books/), an imprint of [Collective Ink Books](https://www.collectiveinkbooks.com/) (formerly John Hunt Publishing).
+##  CITTA Chapters
+
+### Preface
+### Ch. 1: Introduction
+### Ch. 2: Pythagoras and Kabbalah
+### Ch. 3: Layers of Meaning
+### Ch. 4: Metaphysics
+### Ch. 5: Jung and Psychological Mysticism
+### Ch. 6: The Means of Magic
+### Ch. 7: Randomness and Projection
+### Ch. 8: Politics and Witchcraft
+### Ch. 9: Satanism and Freemasonry
+### Ch. 10: The Power of Worlds and Symbols
+### Ch. 11: Tensions
+### Ch. 12: Conclusion
+
+[[Pin 📌]] — add bibliography
