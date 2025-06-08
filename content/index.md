@@ -17,7 +17,6 @@ Most of what I create is available for free as online articles, PDFs, open sourc
 
 ## 📖 Reading desk
 * [[Tao Te Ching by Laozi]]
-* [[Bullshit Jobs by David Graeber]]
 * [[The Study Quran trans. Seyyed Hossein Nasr et al]]
 * [[The Eye of the World by Robert Jordan]]
 * [[TechnoFeudalism by Yanis Varoufakis]]
@@ -50,6 +49,7 @@ I've surfaced the best entry points into my work here for convenience:
 
 ## 🤓 [[Reading|Read]], reviewed or with notes
 
+* [[Bullshit Jobs by David Graeber]]
 * [[Islam by Karen Armstrong]]
 * [[Art in the After-Culture by Ben Davis]]
 * [[Against the Grain by James C. Scott]]
@@ -60,6 +60,7 @@ I've surfaced the best entry points into my work here for convenience:
 * [Zinc](https://zincband.bandcamp.com/album/zinc) debut self-titled album
 * [Gamelan Re-imaginings Vol. 1](https://bitwiseandmadek.bandcamp.com/album/gamelan-re-imaginings-vol-1) with *Bitwise + Madek*
 * [Vaccine](https://trenchesband.bandcamp.com/album/drainland-split-12) with *Trenches*
+* [Stick EP](https://bitwiseoperator.bandcamp.com/album/stick-ep) as *Bitwise Operator*
 
 [[Music|More...]]
 

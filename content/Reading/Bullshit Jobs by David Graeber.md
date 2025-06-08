@@ -6,9 +6,7 @@ tags:
 ---
 [Open Library: OL20153626W](https://openlibrary.org/works/OL20153626W/Bullshit_Jobs)
 
-Reading in paperback.
-
-* [[Post-capitalism]]
+Read in paperback.
 
 ---
 
@@ -27,11 +25,32 @@ Graeber goes much farther though and proposes a novel resolution:
 
 > [The] ugly, if predictable, side effect to top-down chains of command in the workplace, has actually become central to what validates work itself. Suffering has become a badge of economic citizenship. It's not that much different than a home address. Without it, you have no right to make any other claim. [p. 243]
 
+This results in... ⤵️
+## The leisure society that never came
+
+> In a sense, those critics who claim we are not working a fifteen-hour week because we have chosen consumerism over leisure are not entirely off the mark. They just got the mechanisms wrong. We're not working harder because we're spending all our time manufacturing PlayStations and serving one another sushi. ... Instead, it is because we have invented a bizarre sadomasochistic dialectic whereby we feel that pain in the workplace is the only possible justification for our furtive consumer pleasures... [The author calls it] "compensatory consumerism." They are the sorts of things you can do [within "self-contained predictable time-slots"] to make up for the fact that you don't have a life, or not very much of one. [p. 246-7] (This is admitted to be polemical in the next section, but useful.)
+
+For an example of "those critics", see [[The Technology Trap by Carl Benedikt Frey#The leisure society that never came]] companion note (Frey). This is indeed the central argument of why we are not working less (though it is *17 weeks per year*, as Frey has it).
+
+The Graeber, the tinge is moralistic and ultimately religious in origin. This is developed with historical tracings and top down. 'Robber Barons' such as Andrew Carnegie (see [p. 233]) who were responsible for convincing workers that it was capital, not labour, that was productive (see [[Bullshit Jobs by David Graeber#The theory of labour]] below). The shift then, from a fact-based material analysis to a moralistic one is a conspiracy that co-opted Christian religion. While more deep and widespread than the core example, it is the curse of God upon Adam and Eve to toil the land and in childbirth.
+
+> ...I would insist our concept of "production," and our assumption that work is defined by its "productivity," is essentially theological. ... In the familiar lines from the story of the Fall, from the book of Genesis, God condemns men to till the soil ("By the sweat of your brow you will eat your food") and women to bear children in similarly unhappy circumstances ("I will make your pains in childbearing very severe; with painful labor you will give birth to children".) [p. 221-2]
+
+In other words, Graeber claims that the reason people do not work less, is that we have a Christian system in which people are thought not to deserve it, by divine edict. While this is not foregrounded in the discourse, he sees it as the source and still the background justification.
+
+Later, Graeber adds nuance to the claim that technological development creates new jobs to replace those automated away (done by mechanized systems), not refuting it. Rather, he claims, those new jobs are the very bullshit jobs that is the ethnographic study of his book:
+
+> Automation _did_, in fact, lead to mass unemployment [following the American Great Depression, circa 1930]. We have simply stopped the gap by adding dummy [read: bullshit] jobs that are effectively made up. ...if one eliminates bullshit jobs from the picture, and the real jobs that only exist to support them, one could say that the catastrophe predicted in the 1930s really did happen. Upward of 50 percent to 60 percent of the population has, in fact, been thrown out of work. [p. 265]
+
 ## [[Post-capitalism#Techno-feudalism]]
 
 > ...in any political-economic system based on appropriation and distribution of goods, rather than on actually making, moving, or maintaining them, and therefore, where a substantial portion of the population is engaged in funneling resources up and down the system, that proportion of the population will tend to organize itself into an elaborately ranked hierarchy of multiple tiers (at leat three, and sometimes ten, twelve, or even more). As a corollary, I would add that within those hierarchies, the line between retainers and subordinates will often become blurred, since obeisance to superiors is often a key part of the job description. Most of the important players are lords and vassals at the same time. [p. 181]
 
 > If the existence of bullshit jobs seems to defy the logic of capitalism, one possible reason for their proliferation might be that the existing system _isn't_ capitalism—or at least, isn't any sort of capitalism that would be recognizable from the works of Adam Smith, Karl Marx, or, for that matter, Ludwig von Miles or Milton Friedman [both neoliberal, free-market libertarians]. It is increasingly a system of rent extraction where the internal logic—the system's "laws of motion," as the Marxists like to say—are profoundly different from capitalism, since economic and political imperatives have come to largely merge. In many ways, it resembles classic medieval feudalism, displaying the same tendency to create endless hierarchies of lords, vassals, and retainers. In other ways—notably in its managerialist ethos—it is profoundly different. And the whole apparatus, rather than replacing old-fashioned industrial capitalism, is instead superimposed on top of it, blending together in a thousand points in a thousand different ways. [p. 191]
+
+Graeber also mentions both Fray (via his famed study on automation susceptibility in the workforce, see his book [[The Technology Trap by Carl Benedikt Frey|The Technology Trap]]) and Martin Ford's *Rise of the Robots*. Ford proposes we are headed for techno-feudalism. though this term is not employed in the follow up book [[Rule of the Robots by Martin Ford|Rule of the Robots]] and he seems to have discarded it as a framework. Graeber summarizes ("cruelly simplified", he admits) as follows:
+
+> Throwing workers out of work, or impoverishing them by forcing them to compete with machines, will be deeply problematic, [Ford] argues: particularly since, without paychecks, how exactly is anyone going to afford all the shiny toys and efficient services the robots will provide? [p. 258-9]
 
 ## Capitalism is not total
 
@@ -76,8 +95,30 @@ Finally, I should mention that Graeber does admit that "Lincoln was no doubt ove
 
 It is an interesting picture of what the 'good life' was thought to be at the time. Lincoln's address was just a decade after the Irish potato famine in which many (of my own kin and countrypersons) fled Ireland and must have taken up this social vision, which even now seems attractive and something not readily on offer.
 
+At the risk of labouring the point (pun intended), another way Graeber put it later is:
+
+> The less the value of work is seen to lie either in what it produces, or the benefits it provides to others, the more work comes to be seen as valuable primarily as a form of self-sacrifice, which means that anything that makes work less onerous or more enjoyable, even the gratification of knowing that one's work benefits others, is actually seen to lower its value—and as a result, to justify lower levels of pay.
+
+### Work as initiation
+
+*[[Pin 📌]] my own experiences of work as a way into normal, secular society, given the lack of other means, and a way to graduate into adulthood independent of any community rituals.*
+
 ## [[Problem of Elite Knowledge#Guild and trade secrets]]
 
 > Where once hoopers and wainwrights and seamstresses saw themselves as heirs to a proud tradition, each with its secret knowledge, the new bureaucratically organized corporations and their "scientific management" sought as far as possible to literally turn workers into extensions of the machinery, their every move predetermined by someone else. [p. 233]
 
 In my own day-job field of software engineering, this seems to be one effect of [[Coding with AI]]. An article describes the dismay of Amazon software engineers whose jobs have been reduced to that of lowly warehouse workers at the other end of the company! ([New York Times](https://www.nytimes.com/2025/05/25/business/amazon-ai-coders.html) and brief commentary by [Simon Willison](https://simonwillison.net/2025/May/28/amazon-some-coders/)). Coding has been treated as a craft but anyone could have seen this having a time limit, not only from the pressures of managerialism but now from AI.
+
+## Moral envy
+
+> Moral envy is an undertheorized phenomenon. ... By "moral envy," I am referring here to feelings of envy and resentment directed at another person, not because that person is wealthy, or gifted, or lucky, but because his or her behavior is seem as upholding a higher moral standard than the envier's own. The basic sentiment seems to be "How dare that person claim to be better than me (by acting in a way that I do indeed acknowledge is better than me)?" ... Within a community of do-gooders, anyone who exemplifies shared values in too exemplary a way is seen as a threat; ostentatiously good behavior ("virtue signaling" is the new catchword) is often perceived as a moral challenge... [p. 248-9]
+
+## Ruled, not ruling
+
+> There’s a little mental trick we often play on ourselves when discussing such matters [as government policy]. We say, for instance, “What are we going to do about the problem of X?” as if “we” were society as a whole, somehow acting on ourselves, but, in fact, unless we happen to be part of that roughly 3 percent to 5 percent of the population whose views actually do affect policy makers, this is all a game of make-believe; we are identifying with our rulers when, in fact, we’re the ones being ruled. ... Myself, I find such games particularly pernicious because I’d prefer not to have policy elites around at all. I’m personally an anarchist ... [and so] I prefer solutions to immediate problems that do not give more power to governments or corporations, but rather, give people the means to manage their own affairs.  
+> It follows that when faced with a social problem my impulse is not to imagine myself in charge, and ponder what sort of solutions I would then impose, but to look for a movement already out there, already trying to address the problem and create its own solutions. [p. 270-1]
+
+This is one of the reasons Graeber is such a valuable thinker. He makes anarchism serious and reasonable, rejecting assumptions it is a politics of the naive, misguided or even misanthropic. Of course, socialists (and all kinds of parliamentarians for that matter) will retort that to affect change (perhaps the only way to do it) we must band together into large groups and take collective action, even if that action is just voting and submitting to the mandates of those elected, for the good of all. But what Graeber shows is the distance of "we" is, for the average person, so large as to call it into question, at the very least.
+# Mentions
+
+* [[Post-capitalism#Full Automated Luxury Communism]], [p. 261]
