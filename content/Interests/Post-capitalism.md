@@ -6,6 +6,10 @@ Who knows what the future will bring?
 
 Often Leftist writers speak about the utopia that will be the post-capitalist world. But will it necessarily be so?
 
+## Full Automated Luxury Communism
+
+[[Pin 📌]]
+
 # The Present
 
 Some say capitalism has already ended or morphed into something distinctly different.

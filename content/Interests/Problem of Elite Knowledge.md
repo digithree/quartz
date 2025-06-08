@@ -14,6 +14,12 @@ Related to:
 * "Information wants to be free"
 * Intellectual property
 
+# Preamble
+
+## What it is not
+
+[[Pin 📌]] to explain limits, that it is not a blunt lack of availability of knowledge, either personally obtained or derived from experience or other knowledges (i.e. what isn't yet known), etc.
+
 ## Why should it matter to me?
 
 I'm motivated by an egalitarian value to make facts, theories and ideas easy to access and understand. It could be considered pro-plebeian or even populist. It is clear that some forms of knowledge occlusion are about protecting and rationing access to privilege
@@ -74,9 +80,6 @@ The purpose of hiding the methods and know-how of the trade was to guard the via
 
 There are, of course, negative aspects to such a system, especially in keeping outsiders out and the ability to apply prejudiced systems of membership control. (I speculate, it would be worth trying to find evidence of this or refute it.)
 
-In [[The Technology Trap by Carl Benedikt Frey]], the author notes that the dynamic of labouring guilds also held back technological innovation and it was only after their loss of power (this is, when it was violently wrested from them) that industrialisation could take off:
-
-> ...for most of history, the politics of progress were such that the ruling classes had little to gain and much to lose from the introduction of labor-replacing technology. They rightly feared that angry workers might rebel against the government. In the seventeenth century, for example, the craft guilds had become a force of growing political power in Europe, and they vehemently
-> resisted technologies that threatened their livelihoods. [p. xii]
+In [[The Technology Trap by Carl Benedikt Frey]], the author notes that the dynamic of labouring guilds also held back technological innovation and it was only after their loss of power (this is, when it was violently wrested from them) that industrialisation could take off. See [[The Technology Trap by Carl Benedikt Frey#Workers holding back innovation]].
 
 [[Pin 📌]]—add story from Granta on the remnants of coal 'free miners' in England and the elite knowledge and protection (and sexism) of the right to coal mining that exists.
