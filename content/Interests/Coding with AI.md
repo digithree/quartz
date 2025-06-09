@@ -18,7 +18,7 @@ In the simplest use case, coding with an AI is like using an interactive search 
 
 ## Prompts as code
 
-Are prompts just another way a coding? There are parametrized prompt builders that would make it seem so but I think this is illusory since the underlying effect of prompts is fundamentally non-deterministic and the models are always changing (or the config, such as the system prompts, etc.)
+Are prompts just another form of coding? There are parametrized prompt builders that would make it seem so but I think this is illusory since the underlying effect of prompts is fundamentally non-deterministic and the models are always changing (or the config, such as the system prompts, etc.)
 
 ## Agentic coders
 
