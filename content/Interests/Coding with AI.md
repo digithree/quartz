@@ -55,7 +55,7 @@ If you're using AI at work, demand of your employer it is paid for by the compan
 
 # Social impact
 
-## How do new engineers get started?
+## How will new engineers get started?
 
 Especially entry level and graduate positions are at risk of replacement. Senior engineers can already use agentic LLMs to match the level of some graduate work, much faster, for much less money. See above the Ptacek realism dunk.
 
@@ -65,9 +65,9 @@ This is something I'm concerned with as someone who often mentors junior devs an
 
 It is tempting to see parallels to the industrial revolution which saw skilled craft artisans replaced with unskilled factory labourers (see [[The Technology Trap by Carl Benedikt Frey]]). The generation that came of age with Uncle Bob's *Clean Code* have been encouraged to see computer programming as a skill that demands intelligence and art.
 
-The idea goes further back, at least to Donald Knuth's famous multi-volume *The Art of Computer Programming*, the first volume published in 1962. This is 'art' more like in the sense of _Zen and the Art of Motorcycle Maintenance_, the technical craft and skill combined with human aesthetic and stylistic choices _within_ a technical field, not conflicting with it. This is the world of the artisan.
+The idea goes further back, at least to Donald Knuth's famous multi-volume *The Art of Computer Programming*, the first volume published in 1962. This is 'art' in the sense of _Zen and the Art of Motorcycle Maintenance_, the technical craft and skill combined with human aesthetic and stylistic choices _within_ a technical field, not conflicting with it. This is the world of the artisan.
 
-Knuth received the Turing Award in 1974, largely due to this work, and made it central to his [award speech](https://paulgraham.com/knuth.html), which is worth reading in its entirety. Fifty years on, and his statements on the hypothetical effect of AI on programming as art are thought by many to have come to pass, finally:
+Knuth received the Turing Award in 1974, largely due to this work (which was apparently a [solo effort](https://quarter--mile.com/One-Man-Armies), and made it central to his [award speech](https://paulgraham.com/knuth.html), which is worth reading in its entirety. Fifty years on, and his statements on the hypothetical effect of AI on *programming as art* are thought by many to have come to pass, finally:
 
 > Artificial intelligence has been making significant progress, yet there is a huge gap between what computers can do in the foreseeable future and what ordinary people can do. The mysterious insights that people have when speaking, listening, creating, and even when they are programming, are still beyond the reach of science; nearly everything we do is still an art.
 
