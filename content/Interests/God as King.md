@@ -21,6 +21,10 @@ In a way, it seems too obvious to ask after. And yet, it is a question that has 
 
 – _The Bible_, Isaiah 43:15, ESV.
 
+> Say, "I seek refuge in the Lord of mankind, the King of mankind, the God of mankind, from the evil of the stealthy whisperer, who whispers into the breasts of mankind, from jinn and mankind."
+
+– _The Quran_, 114:1-13, Nasr, p. 1584. The final *surah* of the Quran, forming the final pair of 'The Two Protectors', a recitation against evil and misfortune. [see p. 1583]
+
 > Then Pilate took Jesus and had him flogged. The soldiers twisted together a crown of thorns and put it on his head. They clothed him in a purple robe and went up to him again and again, saying, “Hail, king of the Jews!” And they slapped him in the face.
 
 – _The Bible_, John 19:1-3, ESV.
@@ -44,7 +48,7 @@ In a way, it seems too obvious to ask after. And yet, it is a question that has 
 > Praise be to God, Originator of the heavens and the earth… Truly God is Powerful over all things. …  
 > … That is God, your Lord; to Him belongs sovereignty. …
 
-– _Qur’an_, 35:1,13, Nasr, p. 1056, 1060.
+– _The Quran_, 35:1,13, Nasr, p. 1056, 1060.
 
 > [The Muses] celebrate Zeus, the father of gods and men,  
 > both in the beginning of their song and at its end: how he is the greatest  
