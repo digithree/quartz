@@ -78,7 +78,7 @@ const config: QuartzConfig = {
         openLinksInNewTab: true,
       }),
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+      //Plugin.Latex({ renderEngine: "katex" }), // disabled to allow for normal dollar sign use
       Plugin.Poetry({
         poetryFont: "Cormorant Garamond",
       }),

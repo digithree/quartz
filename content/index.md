@@ -47,6 +47,9 @@ I've surfaced the best entry points into my work here for convenience:
 
 [[Articles|More...]]
 
+## 🧑‍💻 Open source contributions
+* [[OSS Contribution to Karakeep]]
+
 ## 🤓 [[Reading|Read]], reviewed or with notes
 
 * [[Bullshit Jobs by David Graeber]]
