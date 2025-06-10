@@ -4,6 +4,7 @@ tags:
   - ai
   - art
   - post-capitalism
+  - media-criticism
 ---
 [Goodreads](https://www.goodreads.com/book/show/60625678-art-in-the-after-culture)
 
