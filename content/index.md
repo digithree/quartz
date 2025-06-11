@@ -19,7 +19,6 @@ Most of what I create is available for free as online articles, PDFs, open sourc
 * [[Tao Te Ching by Laozi]]
 * [[The Study Quran trans. Seyyed Hossein Nasr et al]]
 * [[The Eye of the World by Robert Jordan]]
-* [[TechnoFeudalism by Yanis Varoufakis]]
 
 ---
 
@@ -52,6 +51,7 @@ I've surfaced the best entry points into my work here for convenience:
 
 ## 🤓 [[Reading|Read]], reviewed or with notes
 
+* [[TechnoFeudalism by Yanis Varoufakis]]
 * [[Bullshit Jobs by David Graeber]]
 * [[Islam by Karen Armstrong]]
 * [[Art in the After-Culture by Ben Davis]]
