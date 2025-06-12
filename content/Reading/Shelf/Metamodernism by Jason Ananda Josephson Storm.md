@@ -9,4 +9,4 @@ Read in paperback.
 
 # Themes
 
-A take on a post-[[Post-modernism]], solving for the philosophical and especially highly criticized academic aspects, not in terms of the current art and media era. For that, see [[Metamodernism by by Robin Van Den Akker et al]] (confusingly the same title, though different subtitle).
+A take on a post-[[Post-modernism]], solving for the philosophical and especially highly criticized academic aspects, not in terms of the current art and media era. For that, see [[Metamodernism by Robin Van Den Akker et al]] (confusingly the same title, though different subtitle).

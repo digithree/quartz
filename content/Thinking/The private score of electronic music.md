@@ -10,7 +10,7 @@ What it brings to mind for me is the production and reproduction of *electronic 
 
 > If we let ourselves be guided by this basic question—which musical artists regard the score as a creative starting point?—we arrive at the broadest and most welcoming definition of "classical" music.
 
-Electronic music, especially of the most intense and cerebral kinds, are born in their score. The composition medium is the computer interface, not pen and paper (but then modern "classical" scored works are also written on computer, at least eventually). It is also a *private score*, generally closely guarded and not shared. A notable exception that proves this rule is *deadmau5*, who has been very open about their production techniques, but his approach is unusual.
+Electronic music, especially of the most intense and cerebral kind, are born in their score. The composition medium is the computer interface, not pen and paper (but then modern "classical" scored works are also written on computer, at least eventually). It is also a *private score*, generally closely guarded and not shared. A notable exception that proves this rule is *deadmau5*, who has been very open about their production techniques, but his approach is unusual.
 
 For a look at some popular music software, check out [Ableton](https://www.ableton.com/), the one I used the most about [[Music#Bitwise Operator|10 years ago]], as well as [FL Studio](https://www.image-line.com/) which I used when I was getting started 25 years ago ([deadmau5 was also an early adopter](https://www.image-line.com/artists/deadmau5-joel-zimmerman)). [GarageBand](https://www.apple.com/mac/garageband/) comes free with Mac computers and its more grown up cousin [Logic Pro](https://www.apple.com/logic-pro/) is widely used.
 
