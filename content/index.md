@@ -16,7 +16,7 @@ Most of what I create is available for free as online articles, PDFs, open sourc
 * 👋 My [[Bio]]
 
 ## 📖 Reading desk
-* [[Tao Te Ching by Laozi]]
+* [[Tao Te Ching by Laozi trans. Ursula Le Guin]]
 * [[The Study Quran trans. Seyyed Hossein Nasr et al]]
 * [[The Eye of the World by Robert Jordan]]
 
@@ -31,7 +31,8 @@ I've surfaced the best entry points into my work here for convenience:
 * (2024) [[A-Cultural-Reader-of-the-Tarot-by-Simon-Kenny-Rev-2.pdf |A Cultural Reader of the Tarot]] - free PDF
 
 ## ✏️ [[Essays]] self-published
-* [[A solution in search of a problem - Image Generating AI]]
+* [[Advancing without advancing – Lao Tzu and chatbot]]
+* [[A solution in search of a problem – Image Generating AI]]
 
 ## 📜 [[Poems]] I'm writing
 * [[Fox and the Apple]], based on the Aesop's Fable

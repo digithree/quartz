@@ -30,7 +30,7 @@ like the house of belonging.
 
 There are some wonderful poems in his collection of the same name and some terrible ones, like the poem dedicated to The Boeing Company's new 777 passenger jet entitled *Working Together* (no really). From the lazy and reflective habitation among the bees "going from door to door in the tall forest of the daisies" to the rapid combustion of hydrocarbons that propels humans as fast as they're ever likely to travel.
 
-Approaching 40, I'm looking for a new poem to build the next 7 or 10 years around. What will be its theme? I'm drawn to passages of the [[Tao Te Ching by Laozi]], particularly in the capable (though, she admits, interloping) hands of Ursula Le Guin. Her stories have been mind-expanders for me, particularly *A Wizard of Earthsea* and *The Left Hand of Darkness*.
+Approaching 40, I'm looking for a new poem to build the next 7 or 10 years around. What will be its theme? I'm drawn to passages of the [[Tao Te Ching by Laozi trans. Ursula Le Guin]], particularly in the capable (though, she admits, interloping) hands of Ursula Le Guin. Her stories have been mind-expanders for me, particularly *A Wizard of Earthsea* and *The Left Hand of Darkness*.
 
 Chapter 19, *Raw Silk and Uncut Wood*, ends with a fragment that I might well get tattooed on the back of my hand:
 
