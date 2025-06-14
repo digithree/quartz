@@ -114,7 +114,7 @@ Ursula Le Guin, in her paraphrase, comments in a footnote to the passage of chap
 
 In Rubin's paraphrase, however, it seems like some kind of knowing joke, a tongue-in-cheek, having-it-both-ways joke that's not a joke, a [[Post-modernism]] wink. The vibe coder mumbles a lazy order and, "the work is accomplished". Really, the AI is a servant or a junior underling at best. It is not _wu wei_, it is rather *thoughtless-doing*.
 
-In fact, the project *did* start with a joke tweet Rubin wrote on whim:
+In fact, the project *did* start with a joke tweet Rubin wrote on a whim:
 
 > Tools will come and tools will go.  
 > Only The Vibe Coder remains.
