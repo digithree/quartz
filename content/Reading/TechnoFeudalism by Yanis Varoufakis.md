@@ -124,3 +124,25 @@ Varoufakis ends his book (appendix excluded) with a pithy take on Marx and Engel
 > Cloud serfs, cloud proles and cloud vassals of the world, unite! We have nothing to lose but our mind-chains! [Ch. 7]
 
 The inclusion of "cloud vassals" here is interesting. The original Manifesto quote of course was simply directed at "workers". Here, Varoufakis is encouraging class alignment between workers, consumers and incumbent capitalists of the order below behemoth level. Perhaps strategic?
+
+## [[Another Now by Yanis Varoufakis|Another Now]], a post-crypto utopia
+
+In the final chapter 7, Varoufakis summarizes the plausible utopia he laid out in a previous book called [[Another Now by Yanis Varoufakis|Another Now]]. These are:
+
+* Democratised companies
+* Democratised money
+* The cloud and the land as a commons
+
+Although these sections are preceded by a section called *Crypto's False Promise*, the influence of blockchain politics is clear. His plan reads like many such documents I encountered in the heyday of crypto when the energy for blockchain-based communities was a frisson. The feeling at the time was that the perfect community could be socially engineered, its strictures baked into the fundamental structure of a blockchain, insuring ultimate compliance and fairness. This is seemingly ironic given it attracted so many self-identifying libertarians, but makes more sense when you take into account their right-wing character.
+
+The author admits to being "mesmerised" by the blogpost that started the crypto/blockchain phenomenon by pseudonymous Bitcoin creator Satoshi Nakamoto. Within Varoufakis' theoretical framework of the cloud (and its various awkwardly named denizens) this makes sense since, as he says, "this cloud-based network generates *no* cloud rents." But what happened?
+
+> ...the crypto movement which had also initially attracted anarchists and socialists, became a supremely volatile currency market... Their ideological contempt for fiat, or state-created, money turned out to be a ruse for issuing their own fiat money. By the time, in 2017, one Bitcoin traded for more than $20,000, the early emancipatory promise of crypto had vanished.  
+> ...  
+> It was inevitable that the moment a cryptocurrency began to succeed as a currency it would stop working like a currency and would turn instead into a pyramid scheme, with its early adopters growing richer as more and more people bought into it. [Ch. 7]
+
+(Writing today on the 14th of June 2025, Bitcoin is trading at over $100,000)
+
+I am sympathetic to this disillusionment as I too had a number of years of deep interest and engagement with crypto. I was attracted by the purported libertarian and direct democracy ethos but found it a haven for would-be technocratic oligarchs, naive right-wing voluntaryists and the desperation of those trying to scheme their way into a financialized world. Now (writing in mid-2025), the hype cycle's gaze has firmly swivelled to artificial intelligence and we barely hear about 'the blockchain' any more.
+
+Returning to Varoufakis' ideal society, there is little point in me reproducing the text here as it is detailed and somewhat technical, best served by reading it in the book. It inspires me to try to [[Game Design|design a game]] for it though, since he has essentially planned his society top-down as a ruleset. This lends it perfectly to reproduction as a simulation strategy game. A quick web search tells me no one has attempted this yet, so it could be a fun [[Idea 💡]] to try when on off-time. I think it would both show what is interesting about such an idea, which is novel (and we shouldn't forget Varoufakis was once the finance minister of the country of Greece!) but also, I believe, probe for the weakness of such an approach for a whole society. But who knows, perhaps it really is a good blueprint.
