@@ -10,7 +10,7 @@ We will discuss some of the most compelling intersections of Tarot today: AI, ga
 
 I offer this free ebook pamphlet to my readers as a thank you. It is intended to complement my book *A Critical Introduction to the Tarot* in which I started this research. In this pamphlet, we will continue the exploration of this interesting terrain. I hope you enjoy this new work and that it prompts you to think deeply and critically about Tarot and its practice.
 
-## CROTTA Chapters
+## Chapters
 
 I use headings here to help cross-referencing:
 
