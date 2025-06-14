@@ -133,7 +133,7 @@ In the final chapter 7, Varoufakis summarizes the plausible utopia he laid out i
 * Democratised money
 * The cloud and the land as a commons
 
-Although these sections are preceded by a section called *Cypto's False Promise*, the influence of blockchain politics is clear. His plan reads like many such documents I encountered in the heyday of crypto when the energy for blockchain-based communities was a frisson. The feeling at the time was that the perfect community could be socially engineered, its strictures baked into the fundamental structure of a blockchain, insuring ultimate compliance and fairness. This is seemingly ironic given it attracted so many self-identifying libertarians, but makes more sense when you take into account their right-wing character.
+Although these sections are preceded by a section called *Crypto's False Promise*, the influence of blockchain politics is clear. His plan reads like many such documents I encountered in the heyday of crypto when the energy for blockchain-based communities was a frisson. The feeling at the time was that the perfect community could be socially engineered, its strictures baked into the fundamental structure of a blockchain, insuring ultimate compliance and fairness. This is seemingly ironic given it attracted so many self-identifying libertarians, but makes more sense when you take into account their right-wing character.
 
 The author admits to being "mesmerised" by the blogpost that started the crypto/blockchain phenomenon by pseudonymous Bitcoin creator Satoshi Nakamoto. Within Varousfakis' theoretical framework of the cloud (and its various awkwardly named denizens) this makes sense since, as he says, "this cloud-based network generates *no* cloud rents." But what happened?
 
